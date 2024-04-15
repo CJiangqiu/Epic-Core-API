@@ -14,7 +14,7 @@ Firstly:You need add the JitPack repository to your build file
 Secondly: Add the dependency
 ```java
 dependencies {
-	        implementation 'com.github.CJiangqiu:Epic-Core-API-Remote-Workspace:1.20.1'
+	        implementation 'com.github.CJiangqiu：Epic-Core-API：0.1.6'
 	}
  ```
 ## The Battle System(WIP)
