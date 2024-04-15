@@ -1,0 +1,8 @@
+/*Soul Damage:This is a custom damage type that reduces the maximum health of the entity by the same amount as the damage dealt.
+灵魂伤害：这是一种自定义的伤害类型，它会根据造成的伤害数值减少实体的最大生命值。
+*/
+{
+  "exhaustion": 0,
+  "message_id": "soul_damage",
+  "scaling": "never"
+}

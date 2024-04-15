@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "epic_core_api:blocks/elder_metal_wreckage",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "epic_core_api:elder_metal_wreckage"
+        }
+      ]
+    }
+  ]
+}

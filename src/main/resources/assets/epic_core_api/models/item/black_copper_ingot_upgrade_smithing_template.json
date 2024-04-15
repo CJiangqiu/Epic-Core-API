@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "epic_core_api:item/black_copper_ingot_upgrade_smithing_template"
+  }
+}

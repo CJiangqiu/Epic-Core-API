@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "epic_core_api:block/steel_block",
+    "up": "epic_core_api:block/steel_block",
+    "north": "epic_core_api:block/steel_block",
+    "east": "epic_core_api:block/steel_block",
+    "south": "epic_core_api:block/steel_block",
+    "west": "epic_core_api:block/steel_block",
+    "particle": "epic_core_api:block/steel_block"
+  },
+  "render_type": "solid"
+}

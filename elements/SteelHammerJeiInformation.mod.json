@@ -1,0 +1,14 @@
+{
+  "_fv": 60,
+  "_type": "jeiinformation",
+  "definition": {
+    "items": [
+      {
+        "value": "CUSTOM:SteelHammer"
+      }
+    ],
+    "information": [
+      "Used to grind some ingots into dust."
+    ]
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "_fv": 60,
+  "_type": "config",
+  "definition": {
+    "pools": [
+      {
+        "category": "Epic Core API Configuration",
+        "entries": [
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 0,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 0.0,
+            "textDefault": "",
+            "comment": "When true, send detailed information about the entity being injured.为真时，发送实体受伤的详细信息",
+            "vardisplay": "damage_report",
+            "varname": "damage_report",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 64.0,
+            "textDefault": "",
+            "comment": "Determined the range of damage reporting.这个值决定了伤害报告距离玩家起效的范围",
+            "vardisplay": "damage_report_range",
+            "varname": "damage_report_range",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 1.0,
+            "textDefault": "",
+            "comment": "Control the maximum health reduction caused by sacrifice enchantment.控制献祭附魔造成的最大生命值减少",
+            "vardisplay": "sacrifice_max_health_reduce",
+            "varname": "sacrifice_max_health_reduce",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 2,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 0.0,
+            "textDefault": "",
+            "comment": "You can enter the command you want to preset here.你可以在这里输入你想预置的命令。",
+            "vardisplay": "preset_command",
+            "varname": "preset_command",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 0,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 0.0,
+            "textDefault": "",
+            "comment": "When true, the preset command function will be enabled.为真时将会启用预置命令功能。",
+            "vardisplay": "enable_preset_command",
+            "varname": "enable_preset_command",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 5.0,
+            "textDefault": "",
+            "comment": "Control maximum enchantment level.控制最大附魔等级",
+            "vardisplay": "maximum_enchantment_level",
+            "varname": "maximum_enchantment_level",
+            "enablecomment": true
+          }
+        ]
+      },
+      {
+        "category": "battle_system_configuration",
+        "entries": [
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 0,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 0.0,
+            "textDefault": "",
+            "comment": "Enable Epic Core API battle system when true.为真时开启ECA战斗系统  ",
+            "vardisplay": "enable_battle_system",
+            "varname": "enable_battle_system",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 1.0,
+            "textDefault": "",
+            "comment": "Value of stamina that naturally recovers per second.每秒恢复的精力值",
+            "vardisplay": "stamina_recover_value",
+            "varname": "stamina_recover_value",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 1.0,
+            "textDefault": "",
+            "comment": "Value of mana that naturally recovers per second.每秒恢复的魔力值",
+            "vardisplay": "mana_recover_value",
+            "varname": "mana_recover_value",
+            "enablecomment": true
+          }
+        ]
+      }
+    ],
+    "file": "Epic Core API Configuration",
+    "configType": 0
+  }
+}

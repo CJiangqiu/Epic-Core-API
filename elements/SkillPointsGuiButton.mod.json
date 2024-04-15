@@ -1,0 +1,12 @@
+{
+  "_fv": 60,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "I",
+    "keyBindingName": "Skill Points Gui",
+    "keyBindingCategoryKey": "ui",
+    "onKeyPressed": {
+      "name": "OpenSkillPointsGui"
+    }
+  }
+}

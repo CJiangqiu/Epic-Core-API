@@ -1,0 +1,12 @@
+{
+  "_fv": 60,
+  "_type": "damagetype",
+  "definition": {
+    "exhaustion": 0.0,
+    "scaling": "never",
+    "effects": "hurt",
+    "normalDeathMessage": "%1$s's soul has vanished",
+    "itemDeathMessage": "The soul of%1$sis sacrificed by%2$susing%3$s",
+    "playerDeathMessage": "%1$s's body wants to escape%2$s, but unfortunately their soul hasn't kept up"
+  }
+}

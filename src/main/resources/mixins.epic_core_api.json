@@ -1,0 +1,9 @@
+{
+  "required": true,
+  "package": "net.eca.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "mixins.epic_core_api.refmap.json",
+  "mixins": [],
+  "client": [],
+  "minVersion": "0.8"
+}

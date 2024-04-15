@@ -1,0 +1,1940 @@
+{
+  "mod_elements": [
+    {
+      "name": "SilverDust",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_dust",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eca/item/SilverDustItem.java",
+          "src/main/resources/assets/epic_core_api/models/item/silver_dust.json"
+        ]
+      }
+    },
+    {
+      "name": "SilverOre",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/epic_core_api/forge/biome_modifier/silver_ore_biome_modifier.json",
+          "src/main/resources/assets/epic_core_api/models/item/silver_ore.json",
+          "src/main/java/net/eca/block/SilverOreBlock.java",
+          "src/main/resources/data/epic_core_api/worldgen/configured_feature/silver_ore.json",
+          "src/main/resources/assets/epic_core_api/models/block/silver_ore.json",
+          "src/main/resources/data/epic_core_api/worldgen/placed_feature/silver_ore.json",
+          "src/main/resources/data/epic_core_api/loot_tables/blocks/silver_ore.json",
+          "src/main/resources/assets/epic_core_api/blockstates/silver_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "SilverBlock",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/epic_core_api/models/item/silver_block.json",
+          "src/main/resources/assets/epic_core_api/models/block/silver_block.json",
+          "src/main/java/net/eca/block/SilverBlockBlock.java",
+          "src/main/resources/data/epic_core_api/loot_tables/blocks/silver_block.json",
+          "src/main/resources/assets/epic_core_api/blockstates/silver_block.json"
+        ]
+      }
+    },
+    {
+      "name": "SilverIngot",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eca/item/SilverIngotItem.java",
+          "src/main/resources/assets/epic_core_api/models/item/silver_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelIngot",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eca/item/SteelIngotItem.java",
+          "src/main/resources/assets/epic_core_api/models/item/steel_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelIngotRecipe",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_ingot_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/epic_core_api/recipes/steel_ingot_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelHammer",
+      "type": "tool",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_hammer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eca/item/SteelHammerItem.java",
+          "src/main/resources/assets/epic_core_api/models/item/steel_hammer.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelHammerRecipe",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_hammer_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/epic_core_api/recipes/steel_hammer_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SilverIngotRecipe",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_ingot_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/epic_core_api/recipes/silver_ingot_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SilverIngotRecipe2",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_ingot_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/epic_core_api/recipes/silver_ingot_recipe_2.json"
+        ]
+      }
+    },
+    {
+      "name": "SilverBlockRecipe",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/epic_core_api/recipes/silver_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SilverDustRecipe",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_dust_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/epic_core_api/recipes/silver_dust_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelBlock",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eca/block/SteelBlockBlock.java",
+          "src/main/resources/assets/epic_core_api/blockstates/steel_block.json",
+          "src/main/resources/assets/epic_core_api/models/block/steel_block.json",
+          "src/main/resources/data/epic_core_api/loot_tables/blocks/steel_block.json",
+          "src/main/resources/assets/epic_core_api/models/item/steel_block.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelBlockRecipe",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/epic_core_api/recipes/steel_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Stamina",
+      "type": "attribute",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stamina",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Mana",
+      "type": "attribute",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "StaminaTextShow",
+      "type": "procedure",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stamina_text_show",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/eca/procedures/StaminaTextShowProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "StaminaManaOverlay",
+      "type": "overlay",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "stamina_mana_overlay",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eca/client/screens/StaminaManaOverlayOverlay.java"
+        ]
+      }
+    },
+    {
+      "name": "ManaTextShow",
+      "type": "procedure",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_text_show",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/eca/procedures/ManaTextShowProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SoulDamage",
+      "type": "damagetype",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "soul_damage",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/epic_core_api/damage_type/soul_damage.json"
+        ]
+      }
+    },
+    {
+      "name": "SoulDamageAttack",
+      "type": "procedure",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "soul_damage_attack",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eca/procedures/SoulDamageAttackProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "damagesource",
+            "type": "damagesource"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Sacrifice",
+      "type": "enchantment",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "sacrifice",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eca/enchantment/SacrificeEnchantment.java"
+        ]
+      }
+    },
+    {
+      "name": "SacrificeEnchantedItemAttack",
+      "type": "procedure",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "sacrifice_enchanted_item_attack",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eca/procedures/SacrificeEnchantedItemAttackProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Poisoning",
+      "type": "enchantment",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "poisoning",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eca/enchantment/PoisoningEnchantment.java"
+        ]
+      }
+    },
+    {
+      "name": "PoisoningEnchantedItemAttack",
+      "type": "procedure",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "poisoning_enchanted_item_attack",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eca/procedures/PoisoningEnchantedItemAttackProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "DivineWrath",
+      "type": "enchantment",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "divine_wrath",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eca/enchantment/DivineWrathEnchantment.java"
+        ]
+      }
+    },
+    {
+      "name": "DivineWrathEnchantedItemAttack",
+      "type": "procedure",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "divine_wrath_enchanted_item_attack",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "amount",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DamageReport",
+      "type": "procedure",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "damage_report",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eca/procedures/DamageReportProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "amount",
+            "type": "number"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EpicCoreApiConfiguration",
+      "type": "config",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "epic_core_api_configuration",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eca/configuration/EpicCoreApiConfigurationConfiguration.java"
+        ]
+      }
+    },
+    {
+      "name": "PresetCommand",
+      "type": "procedure",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "preset_command",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eca/procedures/PresetCommandProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EpicCore",
+      "type": "item",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "epic_core",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eca/item/EpicCoreItem.java",
+          "src/main/resources/assets/epic_core_api/models/item/epic_core.json"
+        ]
+      }
+    },
+    {
+      "name": "EpicCoreAPI",
+      "type": "tab",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "epic_core_api",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "OverlayShow",
+      "type": "procedure",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "overlay_show",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/eca/procedures/OverlayShowProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NormalWeaponStaminaReduce",
+      "type": "procedure",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "normal_weapon_stamina_reduce",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SunderArmor",
+      "type": "enchantment",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "sunder_armor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eca/enchantment/SunderArmorEnchantment.java"
+        ]
+      }
+    },
+    {
+      "name": "GoldDust",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_dust",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eca/item/GoldDustItem.java",
+          "src/main/resources/assets/epic_core_api/models/item/gold_dust.json"
+        ]
+      }
+    },
+    {
+      "name": "GoldDustRecipe",
+      "type": "recipe",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_dust_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/epic_core_api/recipes/gold_dust_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GoldSilverMixedDust",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_silver_mixed_dust",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eca/item/GoldSilverMixedDustItem.java",
+          "src/main/resources/assets/epic_core_api/models/item/gold_silver_mixed_dust.json"
+        ]
+      }
+    },
+    {
+      "name": "GoldSilverMixedDustRecipe",
+      "type": "recipe",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_silver_mixed_dust_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/epic_core_api/recipes/gold_silver_mixed_dust_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BlackCopperIngot",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_copper_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/epic_core_api/models/item/black_copper_ingot.json",
+          "src/main/java/net/eca/item/BlackCopperIngotItem.java"
+        ]
+      }
+    },
+    {
+      "name": "BlackCopperIngotUpgradeSmithingTemplate",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_copper_ingot_upgrade_smithing_template",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eca/item/BlackCopperIngotUpgradeSmithingTemplateItem.java",
+          "src/main/resources/assets/epic_core_api/models/item/black_copper_ingot_upgrade_smithing_template.json"
+        ]
+      }
+    },
+    {
+      "name": "BlackCopperIngotRecipe",
+      "type": "recipe",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_copper_ingot_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/epic_core_api/recipes/black_copper_ingot_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BlackCopperIngotUpgradeSmithingTemplateRecipe",
+      "type": "recipe",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_copper_ingot_upgrade_smithing_template_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/epic_core_api/recipes/black_copper_ingot_upgrade_smithing_template_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BlackCopperBlock",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_copper_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eca/block/BlackCopperBlockBlock.java",
+          "src/main/resources/assets/epic_core_api/models/item/black_copper_block.json",
+          "src/main/resources/data/epic_core_api/loot_tables/blocks/black_copper_block.json",
+          "src/main/resources/assets/epic_core_api/blockstates/black_copper_block.json",
+          "src/main/resources/assets/epic_core_api/models/block/black_copper_block.json"
+        ]
+      }
+    },
+    {
+      "name": "MithrilIngot",
+      "type": "item",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mithril_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/epic_core_api/models/item/mithril_ingot.json",
+          "src/main/java/net/eca/item/MithrilIngotItem.java"
+        ]
+      }
+    },
+    {
+      "name": "MithrilOre",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mithril_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/epic_core_api/blockstates/mithril_ore.json",
+          "src/main/resources/data/epic_core_api/worldgen/configured_feature/mithril_ore.json",
+          "src/main/java/net/eca/block/MithrilOreBlock.java",
+          "src/main/resources/data/epic_core_api/worldgen/placed_feature/mithril_ore.json",
+          "src/main/resources/assets/epic_core_api/models/block/mithril_ore.json",
+          "src/main/resources/data/epic_core_api/loot_tables/blocks/mithril_ore.json",
+          "src/main/resources/data/epic_core_api/forge/biome_modifier/mithril_ore_biome_modifier.json",
+          "src/main/resources/assets/epic_core_api/models/item/mithril_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "MithrilBlock",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mithril_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eca/block/MithrilBlockBlock.java",
+          "src/main/resources/assets/epic_core_api/blockstates/mithril_block.json",
+          "src/main/resources/assets/epic_core_api/models/item/mithril_block.json",
+          "src/main/resources/data/epic_core_api/loot_tables/blocks/mithril_block.json",
+          "src/main/resources/assets/epic_core_api/models/block/mithril_block.json"
+        ]
+      }
+    },
+    {
+      "name": "MithrilIngotRecipe",
+      "type": "recipe",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mithril_ingot_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/epic_core_api/recipes/mithril_ingot_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MithrilBlockRecipe",
+      "type": "recipe",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mithril_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/epic_core_api/recipes/mithril_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MithrilBlockIngotRecipe",
+      "type": "recipe",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mithril_block_ingot_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/epic_core_api/recipes/mithril_block_ingot_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ElderMetalWreckage",
+      "type": "block",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elder_metal_wreckage",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/epic_core_api/models/item/elder_metal_wreckage.json",
+          "src/main/resources/data/epic_core_api/loot_tables/blocks/elder_metal_wreckage.json",
+          "src/main/java/net/eca/block/entity/ElderMetalWreckageBlockEntity.java",
+          "src/main/resources/assets/epic_core_api/blockstates/elder_metal_wreckage.json",
+          "src/main/java/net/eca/block/ElderMetalWreckageBlock.java",
+          "src/main/resources/assets/epic_core_api/models/block/elder_metal_wreckage.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelIngotRecipe2",
+      "type": "recipe",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_ingot_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/epic_core_api/recipes/steel_ingot_recipe_2.json"
+        ]
+      }
+    },
+    {
+      "name": "RawSilver",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_silver",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eca/item/RawSilverItem.java",
+          "src/main/resources/assets/epic_core_api/models/item/raw_silver.json"
+        ]
+      }
+    },
+    {
+      "name": "OrichalcumIngot",
+      "type": "item",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orichalcum_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eca/item/OrichalcumIngotItem.java",
+          "src/main/resources/assets/epic_core_api/models/item/orichalcum_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "MithrilBlastFurnace",
+      "type": "block",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mithril_blast_furnace",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/epic_core_api/models/block/mithril_blast_furnace.json",
+          "src/main/java/net/eca/block/entity/MithrilBlastFurnaceBlockEntity.java",
+          "src/main/resources/assets/epic_core_api/models/item/mithril_blast_furnace.json",
+          "src/main/resources/data/epic_core_api/loot_tables/blocks/mithril_blast_furnace.json",
+          "src/main/resources/assets/epic_core_api/blockstates/mithril_blast_furnace.json",
+          "src/main/java/net/eca/block/MithrilBlastFurnaceBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "MithrilBlastFurnaceGui",
+      "type": "gui",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mithril_blast_furnace_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eca/client/gui/MithrilBlastFurnaceGuiScreen.java",
+          "src/main/java/net/eca/world/inventory/MithrilBlastFurnaceGuiMenu.java"
+        ]
+      }
+    },
+    {
+      "name": "MithrilBlastFurnaceReplace",
+      "type": "procedure",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mithril_blast_furnace_replace",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eca/procedures/MithrilBlastFurnaceReplaceProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MithrilBlastFurnaceTickUpdate",
+      "type": "procedure",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mithril_blast_furnace_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eca/procedures/MithrilBlastFurnaceTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BurningParticle",
+      "type": "particle",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "burning_particle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eca/client/particle/BurningParticleParticle.java",
+          "src/main/resources/assets/epic_core_api/particles/burning_particle.json"
+        ]
+      }
+    },
+    {
+      "name": "MbfArrowShow1",
+      "type": "procedure",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mbf_arrow_show_1",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/eca/procedures/MbfArrowShow1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MbfArrowShow2",
+      "type": "procedure",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mbf_arrow_show_2",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/eca/procedures/MbfArrowShow2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MbfArrowShow4",
+      "type": "procedure",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mbf_arrow_show_4",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/eca/procedures/MbfArrowShow4Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MbfArrowShow5",
+      "type": "procedure",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mbf_arrow_show_5",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/eca/procedures/MbfArrowShow5Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MbfArrowShow3",
+      "type": "procedure",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mbf_arrow_show_3",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/eca/procedures/MbfArrowShow3Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BlackCopperBlockRecipe",
+      "type": "recipe",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_copper_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/epic_core_api/recipes/black_copper_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MithrilBlastFurnaceRecipe",
+      "type": "recipe",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mithril_blast_furnace_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/epic_core_api/recipes/mithril_blast_furnace_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MithrilBlastFurnaceSmelting",
+      "type": "jeirecipetype",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "mithril_blast_furnace_smelting",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eca/jei_recipes/MithrilBlastFurnaceSmeltingRecipeCategory.java",
+          "src/main/java/net/eca/jei_recipes/MithrilBlastFurnaceSmeltingRecipe.java"
+        ]
+      }
+    },
+    {
+      "name": "OrichalcumIngotJeiRecipe",
+      "type": "jeirecipe",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orichalcum_ingot_jei_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/epic_core_api/recipes/orichalcum_ingot_jei_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelIngotJeiInformation",
+      "type": "jeiinformation",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_ingot_jei_information",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "OrichalcumBlock",
+      "type": "block",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orichalcum_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eca/block/entity/OrichalcumBlockBlockEntity.java",
+          "src/main/resources/data/epic_core_api/loot_tables/blocks/orichalcum_block.json",
+          "src/main/resources/assets/epic_core_api/models/item/orichalcum_block.json",
+          "src/main/resources/assets/epic_core_api/blockstates/orichalcum_block.json",
+          "src/main/resources/assets/epic_core_api/models/block/orichalcum_block.json",
+          "src/main/java/net/eca/block/OrichalcumBlockBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "SteelHammerJeiInformation",
+      "type": "jeiinformation",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_hammer_jei_information",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "SilverOreJeiInformation",
+      "type": "jeiinformation",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_ore_jei_information",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "MithrilOreJeiInformation",
+      "type": "jeiinformation",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mithril_ore_jei_information",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "MithrilBlastFurnaceJeiInformation",
+      "type": "jeiinformation",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mithril_blast_furnace_jei_information",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "ElderMetalWreckageJeiInformation",
+      "type": "jeiinformation",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elder_metal_wreckage_jei_information",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "SunderArmorEnchantedItemAttacked",
+      "type": "procedure",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sunder_armor_enchanted_item_attacked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eca/procedures/SunderArmorEnchantedItemAttackedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SoulProtection",
+      "type": "enchantment",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "soul_protection",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eca/enchantment/SoulProtectionEnchantment.java"
+        ]
+      }
+    },
+    {
+      "name": "Phantom",
+      "type": "enchantment",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "phantom",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eca/enchantment/PhantomEnchantment.java"
+        ]
+      }
+    },
+    {
+      "name": "PhantomEnchantedArmorBeAttacked",
+      "type": "procedure",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "phantom_enchanted_armor_be_attacked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eca/procedures/PhantomEnchantedArmorBeAttackedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "damagesource",
+            "type": "damagesource"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DivineBlessing",
+      "type": "enchantment",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "divine_blessing",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eca/enchantment/DivineBlessingEnchantment.java"
+        ]
+      }
+    },
+    {
+      "name": "DivineBlessingEnchantedArmorBeAttacked",
+      "type": "procedure",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "divine_blessing_enchanted_armor_be_attacked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eca/procedures/DivineBlessingEnchantedArmorBeAttackedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "damagesource",
+            "type": "damagesource"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Reflection",
+      "type": "enchantment",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reflection",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eca/enchantment/ReflectionEnchantment.java"
+        ]
+      }
+    },
+    {
+      "name": "ReflectionEnchantedArmorBeAttacked",
+      "type": "procedure",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reflection_enchanted_armor_be_attacked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eca/procedures/ReflectionEnchantedArmorBeAttackedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "amount",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Explosion",
+      "type": "enchantment",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "explosion",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eca/enchantment/ExplosionEnchantment.java"
+        ]
+      }
+    },
+    {
+      "name": "StaminaRecover",
+      "type": "procedure",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "stamina_recover",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eca/procedures/StaminaRecoverProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GiantWeaponStaminaReduce",
+      "type": "procedure",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "giant_weapon_stamina_reduce",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eca/procedures/GiantWeaponStaminaReduceProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "RangedWeaponStaminaReduce",
+      "type": "procedure",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "ranged_weapon_stamina_reduce",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eca/procedures/RangedWeaponStaminaReduceProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "ExplosionEnchantedRangedWeaponHit",
+      "type": "procedure",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "explosion_enchanted_ranged_weapon_hit",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eca/procedures/ExplosionEnchantedRangedWeaponHitProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "MagicWeaponManaReduce",
+      "type": "procedure",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "magic_weapon_mana_reduce",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eca/procedures/MagicWeaponManaReduceProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "ManaRecover",
+      "type": "procedure",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "mana_recover",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eca/procedures/ManaRecoverProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "ManaArrow",
+      "type": "item",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_arrow",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eca/item/ManaArrowItem.java",
+          "src/main/resources/assets/epic_core_api/models/item/mana_arrow.json"
+        ]
+      }
+    },
+    {
+      "name": "ShotManaArrow",
+      "type": "projectile",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "shot_mana_arrow",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eca/entity/ShotManaArrowEntity.java",
+          "src/main/java/net/eca/client/renderer/ShotManaArrowRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "SkillPointsGui",
+      "type": "gui",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skill_points_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eca/client/gui/SkillPointsGuiScreen.java",
+          "src/main/java/net/eca/world/inventory/SkillPointsGuiMenu.java"
+        ]
+      }
+    },
+    {
+      "name": "SkillPoints",
+      "type": "attribute",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skill_points",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "SkillPointsGet",
+      "type": "procedure",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skill_points_get",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/eca/procedures/SkillPointsGetProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OpenSkillPointsGui",
+      "type": "procedure",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_skill_points_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eca/procedures/OpenSkillPointsGuiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SkillPointsGuiButton",
+      "type": "keybind",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skill_points_gui_button",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eca/network/SkillPointsGuiButtonMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "StaminaManaOverlayRemove",
+      "type": "keybind",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stamina_mana_overlay_remove",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eca/network/StaminaManaOverlayRemoveMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "RemoveEpicCoreApiOverlay",
+      "type": "procedure",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "remove_epic_core_api_overlay",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eca/procedures/RemoveEpicCoreApiOverlayProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EditStaminaManaOverlay",
+      "type": "gui",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "edit_stamina_mana_overlay",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eca/client/gui/EditStaminaManaOverlayScreen.java",
+          "src/main/java/net/eca/world/inventory/EditStaminaManaOverlayMenu.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "ITEMS:forge:weapons/normal_weapon": [
+      "CUSTOM:SteelHammer",
+      "TAG:minecraft:swords",
+      "TAG:minecraft:axes",
+      "TAG:minecraft:pickaxes",
+      "TAG:minecraft:shovels",
+      "TAG:minecraft:hoes"
+    ],
+    "BLOCKS:forge:blocks/black_copper": [
+      "CUSTOM:BlackCopperBlock"
+    ],
+    "ITEMS:forge:ingots/silver": [
+      "CUSTOM:SilverIngot"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:OrichalcumBlock",
+      "~CUSTOM:MithrilBlastFurnace",
+      "~CUSTOM:ElderMetalWreckage",
+      "~CUSTOM:MithrilBlock",
+      "~CUSTOM:MithrilOre",
+      "~CUSTOM:BlackCopperBlock",
+      "~CUSTOM:SteelBlock",
+      "~CUSTOM:SilverBlock",
+      "~CUSTOM:SilverOre"
+    ],
+    "ITEMS:forge:ingots/orichalcum": [
+      "CUSTOM:OrichalcumIngot"
+    ],
+    "ITEMS:forge:weapons/giant_weapon": [
+      "Items.TRIDENT"
+    ],
+    "ITEMS:forge:ingots/black_copper": [
+      "CUSTOM:BlackCopperIngot"
+    ],
+    "BLOCKS:forge:blocks/silver": [
+      "CUSTOM:SilverBlock"
+    ],
+    "ITEMS:forge:dusts/gold_silver_mixed": [
+      "CUSTOM:GoldSilverMixedDust"
+    ],
+    "ITEMS:forge:dusts/gold": [
+      "CUSTOM:GoldDust"
+    ],
+    "ITEMS:forge:ingots/mithril": [
+      "CUSTOM:MithrilIngot"
+    ],
+    "BLOCKS:forge:blocks/steel": [
+      "CUSTOM:SteelBlock"
+    ],
+    "ITEMS:forge:dusts/silver": [
+      "CUSTOM:SilverDust"
+    ],
+    "ITEMS:forge:hammers": [
+      "CUSTOM:SteelHammer"
+    ],
+    "ITEMS:forge:ingots/steel": [
+      "CUSTOM:SteelIngot"
+    ],
+    "BLOCKS:forge:ores/silver": [
+      "CUSTOM:SilverOre"
+    ],
+    "BLOCKS:forge:blocks/orichalcum": [
+      "CUSTOM:OrichalcumBlock"
+    ],
+    "BLOCKS:forge:blocks/mithril": [
+      "CUSTOM:MithrilBlock"
+    ],
+    "ITEMS:forge:shields": [
+      "Items.SHIELD"
+    ],
+    "ITEMS:forge:weapons/ranged_weapon": [
+      "Items.BOW",
+      "Items.CROSSBOW",
+      "Items.TRIDENT"
+    ]
+  },
+  "language_map": {
+    "en_us": {
+      "enchantment.epic_core_api.divine_blessing": "Divine Blessing",
+      "enchantment.epic_core_api.sunder_armor.desc": "Reduce the base armor value of the attacked entity by 0.5 points per enchantment level, lasting a duration based on the enchantment level.",
+      "mana.insufficient.tip": "mana insufficient!",
+      "enchantment.epic_core_api.divine_wrath": "§cDivine Wrath",
+      "jei.epic_core_api.steel_hammer_jei_information": "Used to grind some ingots into dust.",
+      "enchantment.epic_core_api.phantom": "§5Phantom",
+      "config.epic_core_api.epic_core_api_configuration": "Epic Core API Configuration",
+      "block.epic_core_api.silver_ore": "Silver Ore",
+      "item.epic_core_api.black_copper_ingot_upgrade_smithing_template": "Black Copper Ingot Upgrade Smithing Template",
+      "block.epic_core_api.elder_metal_wreckage": "§5Elder Metal Wreckage",
+      "attribute.epic_core_api.skill_points": "Skill Points",
+      "attribute.epic_core_api.stamina": "Stamina",
+      "enchantment.epic_core_api.divine_blessing.desc": "§cImmune to Out of World Damage.",
+      "item.epic_core_api.gold_dust": "Gold Dust",
+      "stamina.insufficient.tip": "stamina insufficient!",
+      "block.epic_core_api.orichalcum_block": "§dOrichalcum Block",
+      "death.attack.soul_damage.player": "%1$s\u0027s body wants to escape%2$s, but unfortunately their soul hasn\u0027t kept up",
+      "enchantment.epic_core_api.divine_wrath.desc": "§cThe original damage type of weapon is replaced by void damage.",
+      "block.epic_core_api.black_copper_block": "§eBlack Copper Block",
+      "death.attack.soul_damage": "%1$s\u0027s soul has vanished",
+      "translation.key.cause": " caused by ",
+      "item.epic_core_api.steel_ingot": "Steel Ingot",
+      "item.epic_core_api.steel_hammer": "Steel Hammer",
+      "jei.epic_core_api.steel_ingot_jei_information": "Can be smelted from Iron Ingots.",
+      "item.epic_core_api.raw_silver": "Raw Silver",
+      "block.epic_core_api.mithril_ore": "§bMithril Ore",
+      "enchantment.epic_core_api.sacrifice.desc": "§5Reduce the maximum health of the attacked entity by the enchantment level.",
+      "enchantment.epic_core_api.reflection": "Reflection",
+      "translation.key.skill_points_number": "skill points:",
+      "block.epic_core_api.mithril_block": "§bBlock of Mithril",
+      "enchantment.epic_core_api.sunder_armor": "Sunder Armor",
+      "item.epic_core_api.mithril_ingot": "Mithril Ingot",
+      "attribute.epic_core_api.mana": "Mana",
+      "item.epic_core_api.mana_arrow": "Mana Arrow",
+      "block.epic_core_api.mithril_blast_furnace": "Mithril Blast Furnace",
+      "item.epic_core_api.silver_ingot": "Silver Ingot",
+      "enchantment.epic_core_api.soul_protection.desc": "When suffering soul damage, reduce the soul damage by the value of the enchantment level.",
+      "enchantment.epic_core_api.sacrifice": "§5Sacrifice",
+      "jei.receipe_type.mithril_blast_furnace_smelting": "Mithril Blast Furnace Smelting",
+      "key.epic_core_api.stamina_mana_overlay_remove": "Remove EpicCoreApi Overlay ",
+      "block.epic_core_api.mithril_blast_furnace.tip": "§4Warning! Detected incorrect melting products!",
+      "translation.key.get": " get ",
+      "enchantment.epic_core_api.phantom.desc": "§5Immune to Fall Damage, and has a 0.1*enchantment level chance to be immune to damage.",
+      "item.epic_core_api.silver_dust": "Silver Dust",
+      "item.epic_core_api.gold_silver_mixed_dust": "Gold Silver Mixed Dust",
+      "enchantment.epic_core_api.poisoning.desc": "Inflicts a level of poison effect based on the enchantment level.",
+      "jei.epic_core_api.mithril_blast_furnace_jei_information": "No matter what item is smelted, it takes 2.5 seconds per item.",
+      "jei.epic_core_api.elder_metal_wreckage_jei_information": "Generates between layers 1 and 32 in the Overworld’s ocean biomes, with an average of 2 groups per chunk, and an average of 4 per group.",
+      "block.epic_core_api.silver_block": "Silver Block",
+      "key.epic_core_api.skill_points_gui_button": "Skill Points Gui",
+      "death.attack.soul_damage.item": "The soul of%1$sis sacrificed by%2$susing%3$s",
+      "item.epic_core_api.orichalcum_ingot": "Orichalcum Ingot",
+      "enchantment.epic_core_api.explosion.desc": "Cause a MOB-type explosion based on the enchantment level when the arrow touches an entity or block.",
+      "enchantment.epic_core_api.poisoning": "Poisoning",
+      "item.epic_core_api.black_copper_ingot": "Black Copper Ingot",
+      "enchantment.epic_core_api.soul_protection": "Soul Protection",
+      "jei.epic_core_api.mithril_ore_jei_information": "Generates between layers 1 and 32 in the Overworld, with an average of 5 groups per chunk, and an average of 3 per group.",
+      "enchantment.epic_core_api.reflection.desc": "§5When blocking, reflects damage value*0.1*enchantment level of magic damage to the attacking entity.",
+      "item_group.epic_core_api.epic_core_api": "Epic Core API",
+      "block.epic_core_api.steel_block": "Steel Block",
+      "enchantment.epic_core_api.explosion": "Explosion",
+      "jei.epic_core_api.silver_ore_jei_information": "Generates between layers 16 and 64 in the Overworld, with an average of 4 groups per chunk, and an average of 9 per group.",
+      "item.epic_core_api.epic_core": "Epic Core"
+    },
+    "zh_cn": {
+      "enchantment.epic_core_api.divine_blessing": "§c神佑",
+      "mana.insufficient.tip": "魔力不足！",
+      "enchantment.epic_core_api.sunder_armor.desc": "降低被攻击实体附魔等级*0.5点的护甲基础值，持续基于附魔等级的时间。",
+      "enchantment.epic_core_api.divine_wrath": "§c神怒",
+      "jei.epic_core_api.steel_hammer_jei_information": "用于将一些锭粉碎成粉尘。",
+      "enchantment.epic_core_api.phantom": "§5虚化",
+      "config.epic_core_api.epic_core_api_configuration": "Epic Core API配置文件",
+      "block.epic_core_api.silver_ore": "银矿",
+      "item.epic_core_api.black_copper_ingot_upgrade_smithing_template": "乌铜锭升级模板",
+      "block.epic_core_api.elder_metal_wreckage": "§d上古金属残骸",
+      "attribute.epic_core_api.skill_points": "技能点",
+      "attribute.epic_core_api.stamina": "精力",
+      "enchantment.epic_core_api.divine_blessing.desc": "§c免疫虚空伤害。",
+      "item.epic_core_api.gold_dust": "金粉",
+      "stamina.insufficient.tip": "精力不足！",
+      "block.epic_core_api.orichalcum_block": "§d奥利哈刚块",
+      "death.attack.soul_damage.player": "%1$s的身体想要逃离%2$s,不幸的是他的灵魂没有跟上",
+      "enchantment.epic_core_api.divine_wrath.desc": "§c武器的原始伤害被替换为虚空伤害。",
+      "block.epic_core_api.black_copper_block": "§e乌铜块",
+      "death.attack.soul_damage": "%1$s的灵魂消逝了",
+      "translation.key.cause": " 来自于 ",
+      "item.epic_core_api.steel_ingot": "钢锭",
+      "item.epic_core_api.steel_hammer": "钢锤",
+      "jei.epic_core_api.steel_ingot_jei_information": "可以由铁锭熔炼而成。",
+      "item.epic_core_api.raw_silver": "粗银",
+      "block.epic_core_api.mithril_ore": "§b秘银矿",
+      "enchantment.epic_core_api.sacrifice.desc": "§5减少被攻击实体附魔等级的最大生命值。",
+      "enchantment.epic_core_api.reflection": "§5反射",
+      "translation.key.skill_points_number": "技能点：",
+      "block.epic_core_api.mithril_block": "§b秘银块",
+      "enchantment.epic_core_api.sunder_armor": "破甲",
+      "item.epic_core_api.mithril_ingot": "秘银锭",
+      "attribute.epic_core_api.mana": "魔力",
+      "item.epic_core_api.mana_arrow": "魔力箭",
+      "block.epic_core_api.mithril_blast_furnace": "§b秘银高炉",
+      "item.epic_core_api.silver_ingot": "银锭",
+      "enchantment.epic_core_api.soul_protection.desc": "当受到灵魂伤害时，减少附魔等级数值的灵魂伤害。",
+      "enchantment.epic_core_api.sacrifice": "§5献祭",
+      "jei.receipe_type.mithril_blast_furnace_smelting": "秘银高炉熔炼",
+      "key.epic_core_api.stamina_mana_overlay_remove": "移动史诗核心API叠加层",
+      "block.epic_core_api.mithril_blast_furnace.tip": "§4警告！检测到错误的熔炼产物！",
+      "translation.key.get": " 受到 ",
+      "enchantment.epic_core_api.phantom.desc": "§5免疫摔落伤害，并且有0.1*附魔等级的概率免疫伤害。",
+      "item.epic_core_api.silver_dust": "银粉",
+      "item.epic_core_api.gold_silver_mixed_dust": "金银混合粉",
+      "enchantment.epic_core_api.poisoning.desc": "造成基于附魔等级的中毒效果。",
+      "jei.epic_core_api.mithril_blast_furnace_jei_information": "无论烧制什么物品都是2.5秒1个。",
+      "jei.epic_core_api.elder_metal_wreckage_jei_information": "在主世界海洋类群系的1到32层生成，每区块平均生成2组，每组平均生成4个。",
+      "block.epic_core_api.silver_block": "银块",
+      "key.epic_core_api.skill_points_gui_button": "技能点界面",
+      "death.attack.soul_damage.item": "%1$s的灵魂被%2$s使用%3$s献祭",
+      "item.epic_core_api.orichalcum_ingot": "奥利哈刚锭",
+      "enchantment.epic_core_api.explosion.desc": "对箭触碰到的实体或者方块造成一次基于附魔等级的MOB类型的爆炸。",
+      "enchantment.epic_core_api.poisoning": "淬毒",
+      "item.epic_core_api.black_copper_ingot": "乌铜锭",
+      "enchantment.epic_core_api.soul_protection": "灵魂保护",
+      "jei.epic_core_api.mithril_ore_jei_information": "在主世界的1到32层生成，每区块平均生成5组，每组平均生成3个。",
+      "enchantment.epic_core_api.reflection.desc": "§5格挡时反射伤害值*0.1*附魔等级的魔法伤害给攻击实体。",
+      "item_group.epic_core_api.epic_core_api": "Epic Core API",
+      "block.epic_core_api.steel_block": "钢块",
+      "enchantment.epic_core_api.explosion": "爆炸",
+      "jei.epic_core_api.silver_ore_jei_information": "在主世界的16到64层生成，每区块平均生成4组，每组平均生成9个。",
+      "item.epic_core_api.epic_core": "Epic Core"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "epic_core_api",
+    "modName": "Epic Core API",
+    "version": "0.1.7",
+    "description": "This is an API mod created by CJiangqiu",
+    "author": "CJiangqiu",
+    "websiteURL": "https://www.curseforge.com/minecraft/mc-mods/epic-core-api",
+    "license": "Academic Free License v3.0",
+    "serverSideOnly": false,
+    "modPicture": "epic_core_api",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "curios_api",
+      "jade",
+      "playeranimator",
+      "jei"
+    ],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Procedure:CJiangqiu;Mascot:Mcreator",
+    "modElementsPackage": "net.eca"
+  },
+  "mcreatorVersion": 202400115821
+}

@@ -1,0 +1,14 @@
+{
+  "_fv": 60,
+  "_type": "jeiinformation",
+  "definition": {
+    "items": [
+      {
+        "value": "CUSTOM:SilverOre"
+      }
+    ],
+    "information": [
+      "Generates between layers 16 and 64 in the Overworld, with an average of 4 groups per chunk, and an average of 9 per group."
+    ]
+  }
+}

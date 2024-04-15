@@ -1,0 +1,14 @@
+{
+  "_fv": 60,
+  "_type": "jeiinformation",
+  "definition": {
+    "items": [
+      {
+        "value": "CUSTOM:SteelIngot"
+      }
+    ],
+    "information": [
+      "Can be smelted from Iron Ingots."
+    ]
+  }
+}

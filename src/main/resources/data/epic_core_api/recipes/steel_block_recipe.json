@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "epic_core_api:steel_ingot"
+    }
+  },
+  "result": {
+    "item": "epic_core_api:steel_block",
+    "count": 1
+  }
+}

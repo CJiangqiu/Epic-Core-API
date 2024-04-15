@@ -1,0 +1,16 @@
+{
+  "_fv": 60,
+  "_type": "jeirecipe",
+  "definition": {
+    "category": "mithril_blast_furnace_smelting",
+    "result": {
+      "value": "CUSTOM:OrichalcumIngot"
+    },
+    "count": 1,
+    "ingredients": [
+      {
+        "value": "CUSTOM:ElderMetalWreckage"
+      }
+    ]
+  }
+}

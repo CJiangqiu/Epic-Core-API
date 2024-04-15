@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "epic_core_api:block/black_copper_block",
+    "up": "epic_core_api:block/black_copper_block",
+    "north": "epic_core_api:block/black_copper_block",
+    "east": "epic_core_api:block/black_copper_block",
+    "south": "epic_core_api:block/black_copper_block",
+    "west": "epic_core_api:block/black_copper_block",
+    "particle": "epic_core_api:block/black_copper_block"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "epic_core_api:orichalcum_block",
+    "epic_core_api:mithril_blast_furnace",
+    "epic_core_api:elder_metal_wreckage",
+    "epic_core_api:mithril_block",
+    "epic_core_api:mithril_ore",
+    "epic_core_api:black_copper_block",
+    "epic_core_api:steel_block",
+    "epic_core_api:silver_block",
+    "epic_core_api:silver_ore"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "_fv": 60,
+  "_type": "particle",
+  "definition": {
+    "texture": "burning_particle.png",
+    "animate": true,
+    "frameDuration": 2,
+    "width": 0.2,
+    "height": 0.2,
+    "scale": 0.4,
+    "speedFactor": 0.0,
+    "gravity": 0.04,
+    "maxAge": 10,
+    "maxAgeDiff": 0,
+    "angularVelocity": 0.0,
+    "angularAcceleration": 0.0,
+    "canCollide": true,
+    "alwaysShow": false,
+    "renderType": "LIT"
+  }
+}

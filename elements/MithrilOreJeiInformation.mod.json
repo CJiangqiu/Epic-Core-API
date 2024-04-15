@@ -1,0 +1,14 @@
+{
+  "_fv": 60,
+  "_type": "jeiinformation",
+  "definition": {
+    "items": [
+      {
+        "value": "CUSTOM:MithrilOre"
+      }
+    ],
+    "information": [
+      "Generates between layers 1 and 32 in the Overworld, with an average of 5 groups per chunk, and an average of 3 per group."
+    ]
+  }
+}

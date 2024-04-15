@@ -1,0 +1,7 @@
+{
+  "_fv": 60,
+  "_type": "procedure",
+  "definition": {
+    "procedurexml": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><xml xmlns=\"https://developers.google.com/blockly/xml\"><block deletable=\"false\" type=\"event_trigger\" x=\"163\" y=\"263\"><field name=\"trigger\">entity_pre_hurt</field><next><block type=\"controls_if\"><value name=\"IF0\"><block type=\"damagesource_isequalto\"><field name=\"damagetype\">CUSTOM:SoulDamage</field><value name=\"damagesource\"><block type=\"damagesource_from_deps\"/></value></block></value><statement name=\"DO0\"><block type=\"set_attribute\"><field name=\"attribute\">MAX_HEALTH</field><value name=\"entity\"><block type=\"entity_from_deps\"/></value><value name=\"value\"><block type=\"math_dual_ops\"><field name=\"OP\">MINUS</field><value name=\"A\"><block type=\"get_attribute\"><field name=\"attribute\">MAX_HEALTH</field><value name=\"entity\"><block type=\"entity_from_deps\"/></value></block></value><value name=\"B\"><block type=\"math_dual_ops\"><field name=\"OP\">MULTIPLY</field><value name=\"A\"><block type=\"java_code_get\"><field name=\"CODE\">(null)</field></block></value><value name=\"B\"><block type=\"math_number\"><field name=\"NUM\">0.05</field></block></value></block></value></block></value></block></statement></block></next></block></xml>"
+  }
+}

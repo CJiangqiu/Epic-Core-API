@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#is_overworld",
+  "features": "epic_core_api:silver_ore",
+  "step": "underground_ores"
+}

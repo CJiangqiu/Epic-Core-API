@@ -1,0 +1,22 @@
+{
+  "_fv": 60,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Blasting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 5.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "blastingInputStack": {
+      "value": "CUSTOM:MithrilOre"
+    },
+    "blastingReturnStack": {
+      "value": "CUSTOM:MithrilIngot"
+    },
+    "name": "mithril_ingot_recipe",
+    "namespace": "mod"
+  }
+}

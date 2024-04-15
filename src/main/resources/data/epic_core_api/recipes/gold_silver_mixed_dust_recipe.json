@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "epic_core_api:silver_dust"
+    },
+    {
+      "tag": "forge:hammers"
+    },
+    {
+      "item": "epic_core_api:gold_dust"
+    }
+  ],
+  "result": {
+    "item": "epic_core_api:gold_silver_mixed_dust",
+    "count": 1
+  }
+}

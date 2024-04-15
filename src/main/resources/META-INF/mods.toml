@@ -1,0 +1,50 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="Academic Free License v3.0"
+
+[[mods]]
+modId="epic_core_api"
+version="0.1.7"
+displayName="Epic Core API"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/epic-core-api"
+logoFile="logo.png"
+credits="Procedure:CJiangqiu;Mascot:Mcreator"
+authors="CJiangqiu"
+description="This is an API mod created by CJiangqiu"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.epic_core_api]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="NONE"
+    side="BOTH"
+
+
+[[dependencies.epic_core_api]]
+    modId="curios_api"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.epic_core_api]]
+    modId="jade"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.epic_core_api]]
+    modId="playeranimator"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.epic_core_api]]
+    modId="jei"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+

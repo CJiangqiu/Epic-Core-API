@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:copper_ingot"
+    },
+    "b": {
+      "item": "epic_core_api:steel_ingot"
+    },
+    "c": {
+      "item": "epic_core_api:gold_silver_mixed_dust"
+    }
+  },
+  "result": {
+    "item": "epic_core_api:black_copper_ingot_upgrade_smithing_template",
+    "count": 1
+  }
+}

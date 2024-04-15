@@ -1,0 +1,37 @@
+{
+  "_fv": 60,
+  "_type": "enchantment",
+  "definition": {
+    "name": "§5Phantom",
+    "type": "ARMOR",
+    "rarity": "RARE",
+    "minLevel": 1,
+    "maxLevel": 5,
+    "damageModifier": 0,
+    "compatibleEnchantments": [
+      {
+        "value": "FEATHER_FALLING"
+      },
+      {
+        "value": "PROTECTION"
+      },
+      {
+        "value": "FIRE_PROTECTION"
+      },
+      {
+        "value": "BLAST_PROTECTION"
+      },
+      {
+        "value": "PROJECTILE_PROTECTION"
+      }
+    ],
+    "excludeEnchantments": true,
+    "compatibleItems": [],
+    "excludeItems": false,
+    "isTreasureEnchantment": false,
+    "isCurse": false,
+    "isAllowedOnBooks": true,
+    "canGenerateInLootTables": true,
+    "canVillagerTrade": true
+  }
+}

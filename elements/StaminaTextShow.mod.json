@@ -1,0 +1,7 @@
+{
+  "_fv": 60,
+  "_type": "procedure",
+  "definition": {
+    "procedurexml": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><xml xmlns=\"https://developers.google.com/blockly/xml\"><block deletable=\"false\" type=\"event_trigger\" x=\"134\" y=\"104\"><field name=\"trigger\">player_ticks</field><next><block type=\"return_string\"><value name=\"return\"><block type=\"text_join\"><mutation items=\"2\"/><value name=\"ADD0\"><block type=\"math_singular_ops\"><field name=\"OP\">ROUNDUP</field><value name=\"NUM\"><block type=\"get_attribute_whole\"><field name=\"attribute\">CUSTOM:Stamina</field><value name=\"entity\"><block type=\"entity_from_deps\"/></value></block></value></block></value><value name=\"ADD1\"><block type=\"text_join\"><mutation items=\"2\"/><value name=\"ADD0\"><block type=\"text\"><field name=\"TEXT\">/</field></block></value><value name=\"ADD1\"><block type=\"math_singular_ops\"><field name=\"OP\">ROUNDUP</field><value name=\"NUM\"><block type=\"get_attribute\"><field name=\"attribute\">CUSTOM:Stamina</field><value name=\"entity\"><block type=\"entity_from_deps\"/></value></block></value></block></value></block></value></block></value></block></next></block></xml>"
+  }
+}

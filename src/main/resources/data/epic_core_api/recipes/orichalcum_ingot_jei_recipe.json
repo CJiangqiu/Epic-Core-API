@@ -1,0 +1,12 @@
+{
+  "type": "epic_core_api:mithril_blast_furnace_smelting",
+  "ingredients": [
+    {
+      "item": "epic_core_api:elder_metal_wreckage"
+    }
+  ],
+  "output": {
+    "item": "epic_core_api:orichalcum_ingot",
+    "count": 1
+  }
+}

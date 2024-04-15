@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "epic_core_api:black_copper_ingot_upgrade_smithing_template"
+  },
+  "base": {
+    "item": "minecraft:copper_ingot"
+  },
+  "addition": {
+    "item": "epic_core_api:gold_silver_mixed_dust"
+  },
+  "result": {
+    "item": "epic_core_api:black_copper_ingot"
+  }
+}

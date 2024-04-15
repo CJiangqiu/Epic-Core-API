@@ -1,0 +1,14 @@
+{
+  "_fv": 60,
+  "_type": "jeiinformation",
+  "definition": {
+    "items": [
+      {
+        "value": "CUSTOM:ElderMetalWreckage"
+      }
+    ],
+    "information": [
+      "Generates between layers 1 and 32 in the Overworld’s ocean biomes, with an average of 2 groups per chunk, and an average of 4 per group."
+    ]
+  }
+}

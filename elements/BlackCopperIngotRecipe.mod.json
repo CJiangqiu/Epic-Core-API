@@ -1,0 +1,28 @@
+{
+  "_fv": 60,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smithing",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smithingInputStack": {
+      "value": "Items.COPPER_INGOT"
+    },
+    "smithingInputAdditionStack": {
+      "value": "CUSTOM:GoldSilverMixedDust"
+    },
+    "smithingInputTemplateStack": {
+      "value": "CUSTOM:BlackCopperIngotUpgradeSmithingTemplate"
+    },
+    "smithingReturnStack": {
+      "value": "CUSTOM:BlackCopperIngot"
+    },
+    "name": "black_copper_ingot_recipe",
+    "namespace": "mod"
+  }
+}

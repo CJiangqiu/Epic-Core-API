@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "epic_core_api:block/elder_metal_wreckage_top",
+    "up": "epic_core_api:block/elder_metal_wreckage_top",
+    "north": "epic_core_api:block/elder_metal_wreckage_side",
+    "east": "epic_core_api:block/elder_metal_wreckage_side",
+    "south": "epic_core_api:block/elder_metal_wreckage_side",
+    "west": "epic_core_api:block/elder_metal_wreckage_side",
+    "particle": "epic_core_api:block/elder_metal_wreckage_top"
+  },
+  "render_type": "solid"
+}

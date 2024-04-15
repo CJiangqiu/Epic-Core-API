@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "epic_core_api:block/mithril_blast_furnace"
+    },
+    "facing=east": {
+      "model": "epic_core_api:block/mithril_blast_furnace",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "epic_core_api:block/mithril_blast_furnace",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "epic_core_api:block/mithril_blast_furnace",
+      "y": 270
+    }
+  }
+}

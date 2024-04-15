@@ -1,0 +1,47 @@
+{
+  "_fv": 60,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "skill_points_gui.png",
+          "use1Xscale": true,
+          "x": -29,
+          "y": -110
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_skill_points_get",
+          "text": {
+            "fixedValue": "",
+            "name": "SkillPointsGet"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 191,
+          "y": 217
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

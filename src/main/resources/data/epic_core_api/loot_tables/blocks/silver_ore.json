@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "epic_core_api:blocks/silver_ore",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "epic_core_api:raw_silver",
+          "functions": [
+            {
+              "count": 2,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:explosion_decay"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

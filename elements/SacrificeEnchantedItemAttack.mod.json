@@ -1,0 +1,7 @@
+{
+  "_fv": 60,
+  "_type": "procedure",
+  "definition": {
+    "procedurexml": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><xml xmlns=\"https://developers.google.com/blockly/xml\"><block deletable=\"false\" type=\"event_trigger\" x=\"251\" y=\"300\"><field name=\"trigger\">entity_attacked</field><next><block type=\"controls_if\"><value name=\"IF0\"><block type=\"itemstack_has_enchantment\"><field name=\"enhancement\">CUSTOM:Sacrifice</field><value name=\"item\"><block type=\"entity_get_use_item\"><value name=\"entity\"><block type=\"source_entity_from_deps\"/></value></block></value></block></value><statement name=\"DO0\"><block type=\"deal_damage\"><value name=\"entity\"><block type=\"entity_from_deps\"/></value><value name=\"damagesource\"><block type=\"damagesource_from_type\"><field name=\"damagetype\">MAGIC</field></block></value><value name=\"amount\"><block type=\"item_get_enhancement\"><field name=\"enhancement\">CUSTOM:Sacrifice</field><value name=\"item\"><block type=\"entity_get_use_item\"><value name=\"entity\"><block type=\"source_entity_from_deps\"/></value></block></value></block></value></block></statement></block></next></block></xml>"
+  }
+}

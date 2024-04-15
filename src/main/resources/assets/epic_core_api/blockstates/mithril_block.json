@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "epic_core_api:block/mithril_block"
+    }
+  }
+}

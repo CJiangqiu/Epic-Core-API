@@ -1,0 +1,31 @@
+{
+  "_fv": 60,
+  "_type": "jeirecipetype",
+  "definition": {
+    "textureSelector": "mbf_jei_gui.png",
+    "width": 200,
+    "height": 180,
+    "icon": {
+      "value": "CUSTOM:MithrilBlastFurnace"
+    },
+    "craftingtable": {
+      "value": "CUSTOM:MithrilBlastFurnace"
+    },
+    "enableCraftingtable": true,
+    "title": "jei.recipe_type.mithril_blast_furnace_smelting",
+    "slotList": [
+      {
+        "type": "INPUT",
+        "x": 55,
+        "y": 22,
+        "slotid": 0
+      },
+      {
+        "type": "OUTPUT",
+        "x": 127,
+        "y": 41,
+        "slotid": 0
+      }
+    ]
+  }
+}
