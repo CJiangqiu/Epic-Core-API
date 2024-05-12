@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "epic_core_api:mithril_blast_furnace",
+    "epic_core_api:mithril_block",
+    "epic_core_api:mithril_ore"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "_fv": 60,
+  "_type": "jeiinformation",
+  "definition": {
+    "items": [
+      {
+        "value": "CUSTOM:RawSilver"
+      }
+    ],
+    "information": [
+      "Dropped from silver ore, can be melted into silver ingots in blast furnace."
+    ]
+  }
+}

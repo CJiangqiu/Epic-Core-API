@@ -15,13 +15,13 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.KeyMapping;
 
-import net.eca.network.StaminaManaOverlayRemoveMessage;
 import net.eca.network.SkillPointsGuiButtonMessage;
+import net.eca.network.CombatSkillsButtonMessage;
 import net.eca.EpicCoreApiMod;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = {Dist.CLIENT})
 public class EpicCoreApiModKeyMappings {
-	public static final KeyMapping SKILL_POINTS_GUI_BUTTON = new KeyMapping("key.epic_core_api.skill_points_gui_button", GLFW.GLFW_KEY_I, "key.categories.ui") {
+	public static final KeyMapping SKILL_POINTS_GUI_BUTTON = new KeyMapping("key.epic_core_api.skill_points_gui_button", GLFW.GLFW_KEY_I, "key.categories.gameplay") {
 		private boolean isDownOld = false;
 
 		@Override
@@ -34,15 +34,15 @@ public class EpicCoreApiModKeyMappings {
 			isDownOld = isDown;
 		}
 	};
-	public static final KeyMapping STAMINA_MANA_OVERLAY_REMOVE = new KeyMapping("key.epic_core_api.stamina_mana_overlay_remove", GLFW.GLFW_KEY_O, "key.categories.ui") {
+	public static final KeyMapping COMBAT_SKILLS_BUTTON = new KeyMapping("key.epic_core_api.combat_skills_button", GLFW.GLFW_KEY_LEFT_CONTROL, "key.categories.gameplay") {
 		private boolean isDownOld = false;
 
 		@Override
 		public void setDown(boolean isDown) {
 			super.setDown(isDown);
 			if (isDownOld != isDown && isDown) {
-				EpicCoreApiMod.PACKET_HANDLER.sendToServer(new StaminaManaOverlayRemoveMessage(0, 0));
-				StaminaManaOverlayRemoveMessage.pressAction(Minecraft.getInstance().player, 0, 0);
+				EpicCoreApiMod.PACKET_HANDLER.sendToServer(new CombatSkillsButtonMessage(0, 0));
+				CombatSkillsButtonMessage.pressAction(Minecraft.getInstance().player, 0, 0);
 			}
 			isDownOld = isDown;
 		}
@@ -51,7 +51,7 @@ public class EpicCoreApiModKeyMappings {
 	@SubscribeEvent
 	public static void registerKeyMappings(RegisterKeyMappingsEvent event) {
 		event.register(SKILL_POINTS_GUI_BUTTON);
-		event.register(STAMINA_MANA_OVERLAY_REMOVE);
+		event.register(COMBAT_SKILLS_BUTTON);
 	}
 
 	@Mod.EventBusSubscriber({Dist.CLIENT})
@@ -60,7 +60,7 @@ public class EpicCoreApiModKeyMappings {
 		public static void onClientTick(TickEvent.ClientTickEvent event) {
 			if (Minecraft.getInstance().screen == null) {
 				SKILL_POINTS_GUI_BUTTON.consumeClick();
-				STAMINA_MANA_OVERLAY_REMOVE.consumeClick();
+				COMBAT_SKILLS_BUTTON.consumeClick();
 			}
 		}
 	}

@@ -36,6 +36,12 @@ description="This is an API mod created by CJiangqiu"
     ordering="NONE"
     side="BOTH"
 [[dependencies.epic_core_api]]
+    modId="geckolib"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.epic_core_api]]
     modId="playeranimator"
     mandatory=false
     versionRange="[0,)"

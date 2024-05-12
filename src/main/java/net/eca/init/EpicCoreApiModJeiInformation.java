@@ -27,5 +27,6 @@ public class EpicCoreApiModJeiInformation implements IModPlugin {
 		registration.addIngredientInfo(List.of(new ItemStack(EpicCoreApiModBlocks.MITHRIL_ORE.get())), VanillaTypes.ITEM_STACK, Component.translatable("jei.epic_core_api.mithril_ore_jei_information"));
 		registration.addIngredientInfo(List.of(new ItemStack(EpicCoreApiModBlocks.MITHRIL_BLAST_FURNACE.get())), VanillaTypes.ITEM_STACK, Component.translatable("jei.epic_core_api.mithril_blast_furnace_jei_information"));
 		registration.addIngredientInfo(List.of(new ItemStack(EpicCoreApiModBlocks.ELDER_METAL_WRECKAGE.get())), VanillaTypes.ITEM_STACK, Component.translatable("jei.epic_core_api.elder_metal_wreckage_jei_information"));
+		registration.addIngredientInfo(List.of(new ItemStack(EpicCoreApiModItems.RAW_SILVER.get())), VanillaTypes.ITEM_STACK, Component.translatable("jei.epic_core_api.raw_silver_jei_information"));
 	}
 }

@@ -3,8 +3,8 @@
   "_type": "keybind",
   "definition": {
     "triggerKey": "I",
-    "keyBindingName": "Skill Points Gui",
-    "keyBindingCategoryKey": "ui",
+    "keyBindingName": "Skill Points Gui Button",
+    "keyBindingCategoryKey": "gameplay",
     "onKeyPressed": {
       "name": "OpenSkillPointsGui"
     }

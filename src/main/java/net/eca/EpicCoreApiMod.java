@@ -41,6 +41,8 @@ public class EpicCoreApiMod {
 	public static final String MODID = "epic_core_api";
 
 	public EpicCoreApiMod() {
+		// Start of user code block mod constructor
+		// End of user code block mod constructor
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 

@@ -21,8 +21,8 @@ public class EpicCoreApiModScreens {
 	public static void clientLoad(FMLClientSetupEvent event) {
 		event.enqueueWork(() -> {
 			MenuScreens.register(EpicCoreApiModMenus.MITHRIL_BLAST_FURNACE_GUI.get(), MithrilBlastFurnaceGuiScreen::new);
-			MenuScreens.register(EpicCoreApiModMenus.SKILL_POINTS_GUI.get(), SkillPointsGuiScreen::new);
 			MenuScreens.register(EpicCoreApiModMenus.EDIT_STAMINA_MANA_OVERLAY.get(), EditStaminaManaOverlayScreen::new);
+			MenuScreens.register(EpicCoreApiModMenus.SKILL_POINTS_GUI.get(), SkillPointsGuiScreen::new);
 		});
 	}
 }

@@ -154,6 +154,22 @@
             "vardisplay": "mana_recover_value",
             "varname": "mana_recover_value",
             "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 0,
+            "block": {
+              "value": ""
+            },
+            "logicField": 1,
+            "numberField": 0.0,
+            "textDefault": "",
+            "comment": "When this value is true, disable combat skills and magic damage to animals.当这个值为真时，禁用combat skills和magic对动物的伤害。",
+            "vardisplay": "enable_hurt_animal_entity",
+            "varname": "enable_hurt_animal_entity",
+            "enablecomment": true
           }
         ]
       }

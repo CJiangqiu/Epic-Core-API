@@ -12,6 +12,8 @@ import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.damagesource.DamageTypes;
 import net.minecraft.world.damagesource.DamageSource;
+import net.minecraft.tags.ItemTags;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.registries.Registries;
 
 import net.eca.init.EpicCoreApiModEnchantments;
@@ -34,9 +36,10 @@ public class ReflectionEnchantedArmorBeAttackedProcedure {
 	private static void execute(@Nullable Event event, LevelAccessor world, Entity entity, Entity sourceentity, double amount) {
 		if (entity == null || sourceentity == null)
 			return;
-		if (EnchantmentHelper.getItemEnchantmentLevel(EpicCoreApiModEnchantments.REFLECTION.get(), (entity instanceof LivingEntity _entUseItem0 ? _entUseItem0.getUseItem() : ItemStack.EMPTY)) != 0) {
+		if (EnchantmentHelper.getItemEnchantmentLevel(EpicCoreApiModEnchantments.REFLECTION.get(), (entity instanceof LivingEntity _entUseItem0 ? _entUseItem0.getUseItem() : ItemStack.EMPTY)) != 0
+				&& (entity instanceof LivingEntity _entUseItem2 ? _entUseItem2.getUseItem() : ItemStack.EMPTY).is(ItemTags.create(new ResourceLocation("forge:weapons/shield")))) {
 			sourceentity.hurt(new DamageSource(world.registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(DamageTypes.MAGIC)),
-					(float) (amount * (entity instanceof LivingEntity _entUseItem2 ? _entUseItem2.getUseItem() : ItemStack.EMPTY).getEnchantmentLevel(EpicCoreApiModEnchantments.REFLECTION.get()) * 0.1));
+					(float) (amount * (entity instanceof LivingEntity _entUseItem4 ? _entUseItem4.getUseItem() : ItemStack.EMPTY).getEnchantmentLevel(EpicCoreApiModEnchantments.REFLECTION.get()) * 0.1));
 		}
 	}
 }

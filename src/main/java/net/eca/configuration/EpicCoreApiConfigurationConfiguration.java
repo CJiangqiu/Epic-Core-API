@@ -14,6 +14,7 @@ public class EpicCoreApiConfigurationConfiguration {
 	public static final ForgeConfigSpec.ConfigValue<Boolean> ENABLE_BATTLE_SYSTEM;
 	public static final ForgeConfigSpec.ConfigValue<Double> STAMINA_RECOVER_VALUE;
 	public static final ForgeConfigSpec.ConfigValue<Double> MANA_RECOVER_VALUE;
+	public static final ForgeConfigSpec.ConfigValue<Boolean> ENABLE_HURT_ANIMAL_ENTITY;
 	static {
 		BUILDER.push("Epic Core API Configuration");
 		DAMAGE_REPORT = BUILDER.comment("When true, send detailed information about the entity being injured.为真时，发送实体受伤的详细信息").define("damage_report", true);
@@ -27,6 +28,7 @@ public class EpicCoreApiConfigurationConfiguration {
 		ENABLE_BATTLE_SYSTEM = BUILDER.comment("Enable Epic Core API battle system when true.为真时开启ECA战斗系统  ").define("enable_battle_system", true);
 		STAMINA_RECOVER_VALUE = BUILDER.comment("Value of stamina that naturally recovers per second.每秒恢复的精力值").define("stamina_recover_value", (double) 1);
 		MANA_RECOVER_VALUE = BUILDER.comment("Value of mana that naturally recovers per second.每秒恢复的魔力值").define("mana_recover_value", (double) 1);
+		ENABLE_HURT_ANIMAL_ENTITY = BUILDER.comment("When this value is true, disable combat skills and magic damage to animals.当这个值为真时，禁用combat skills和magic对动物的伤害。").define("enable_hurt_animal_entity", false);
 		BUILDER.pop();
 
 		SPEC = BUILDER.build();

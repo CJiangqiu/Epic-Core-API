@@ -10,6 +10,9 @@
     "entities": [
       {
         "value": "EntityMob"
+      },
+      {
+        "value": "CUSTOM:ObsidianWarrior"
       }
     ]
   }

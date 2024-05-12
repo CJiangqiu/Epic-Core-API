@@ -10,31 +10,31 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.network.FriendlyByteBuf;
 
-import net.eca.procedures.RemoveEpicCoreApiOverlayProcedure;
+import net.eca.procedures.CombatSkillsProcedure;
 import net.eca.EpicCoreApiMod;
 
 import java.util.function.Supplier;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
-public class StaminaManaOverlayRemoveMessage {
+public class CombatSkillsButtonMessage {
 	int type, pressedms;
 
-	public StaminaManaOverlayRemoveMessage(int type, int pressedms) {
+	public CombatSkillsButtonMessage(int type, int pressedms) {
 		this.type = type;
 		this.pressedms = pressedms;
 	}
 
-	public StaminaManaOverlayRemoveMessage(FriendlyByteBuf buffer) {
+	public CombatSkillsButtonMessage(FriendlyByteBuf buffer) {
 		this.type = buffer.readInt();
 		this.pressedms = buffer.readInt();
 	}
 
-	public static void buffer(StaminaManaOverlayRemoveMessage message, FriendlyByteBuf buffer) {
+	public static void buffer(CombatSkillsButtonMessage message, FriendlyByteBuf buffer) {
 		buffer.writeInt(message.type);
 		buffer.writeInt(message.pressedms);
 	}
 
-	public static void handler(StaminaManaOverlayRemoveMessage message, Supplier<NetworkEvent.Context> contextSupplier) {
+	public static void handler(CombatSkillsButtonMessage message, Supplier<NetworkEvent.Context> contextSupplier) {
 		NetworkEvent.Context context = contextSupplier.get();
 		context.enqueueWork(() -> {
 			pressAction(context.getSender(), message.type, message.pressedms);
@@ -52,12 +52,12 @@ public class StaminaManaOverlayRemoveMessage {
 			return;
 		if (type == 0) {
 
-			RemoveEpicCoreApiOverlayProcedure.execute(world, x, y, z, entity);
+			CombatSkillsProcedure.execute(world, x, y, z, entity);
 		}
 	}
 
 	@SubscribeEvent
 	public static void registerMessage(FMLCommonSetupEvent event) {
-		EpicCoreApiMod.addNetworkMessage(StaminaManaOverlayRemoveMessage.class, StaminaManaOverlayRemoveMessage::buffer, StaminaManaOverlayRemoveMessage::new, StaminaManaOverlayRemoveMessage::handler);
+		EpicCoreApiMod.addNetworkMessage(CombatSkillsButtonMessage.class, CombatSkillsButtonMessage::buffer, CombatSkillsButtonMessage::new, CombatSkillsButtonMessage::handler);
 	}
 }

@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "epic_core_api:orichalcum_ingot"
+    },
+    {
+      "item": "epic_core_api:orichalcum_ingot"
+    },
+    {
+      "item": "epic_core_api:orichalcum_ingot"
+    },
+    {
+      "item": "epic_core_api:orichalcum_ingot"
+    },
+    {
+      "item": "epic_core_api:orichalcum_ingot"
+    },
+    {
+      "item": "epic_core_api:orichalcum_ingot"
+    },
+    {
+      "item": "epic_core_api:orichalcum_ingot"
+    },
+    {
+      "item": "epic_core_api:orichalcum_ingot"
+    },
+    {
+      "item": "epic_core_api:orichalcum_ingot"
+    }
+  ],
+  "result": {
+    "item": "epic_core_api:orichalcum_block",
+    "count": 1
+  }
+}
