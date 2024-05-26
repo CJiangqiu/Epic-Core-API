@@ -12,13 +12,13 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:SteelIngot"
+        "value": "TAG:forge:ingots/steel"
       },
       {
         "value": "Items.STICK"
       },
       {
-        "value": "CUSTOM:SteelIngot"
+        "value": "TAG:forge:ingots/steel"
       },
       {
         "value": ""

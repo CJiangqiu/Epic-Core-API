@@ -12,22 +12,22 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:SteelIngot"
+        "value": "TAG:forge:ingots/steel"
       },
       {
-        "value": "CUSTOM:SteelIngot"
+        "value": "TAG:forge:ingots/steel"
       },
       {
-        "value": "CUSTOM:SteelIngot"
+        "value": "TAG:forge:ingots/steel"
       },
       {
-        "value": "CUSTOM:SteelIngot"
+        "value": "TAG:forge:ingots/steel"
       },
       {
         "value": "Blocks.BLAST_FURNACE"
       },
       {
-        "value": "CUSTOM:SteelIngot"
+        "value": "TAG:forge:ingots/steel"
       },
       {
         "value": "CUSTOM:MithrilIngot"

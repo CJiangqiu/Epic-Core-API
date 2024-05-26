@@ -1,0 +1,18 @@
+{
+  "skill_point_use": {
+    "sounds": [
+      {
+        "name": "epic_core_api:skill_point_use",
+        "stream": false
+      }
+    ]
+  },
+  "charge_attack": {
+    "sounds": [
+      {
+        "name": "epic_core_api:charge_attack",
+        "stream": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "_fv": 60,
+  "_type": "blockstates",
+  "definition": {
+    "block": "MithrilBlastFurnace",
+    "blockstateList": [
+      {
+        "texture": "mithril_blast_furnace_top",
+        "textureTop": "mithril_blast_furnace_top",
+        "textureLeft": "mithril_blast_furnace_side",
+        "textureFront": "mithril_blast_furnace_front",
+        "textureRight": "mithril_blast_furnace_side",
+        "textureBack": "mithril_blast_furnace_side",
+        "particleTexture": "mithril_blast_furnace_front",
+        "renderType": 0,
+        "customModelName": "Normal",
+        "luminance": 0,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": 0.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 16.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "mithril_blast_furnace_top",
+        "textureTop": "mithril_blast_furnace_top",
+        "textureLeft": "mithril_blast_furnace_side",
+        "textureFront": "mithril_blast_furnace_front_normal",
+        "textureRight": "mithril_blast_furnace_side",
+        "textureBack": "mithril_blast_furnace_side",
+        "particleTexture": "mithril_blast_furnace_front_normal",
+        "renderType": 0,
+        "customModelName": "Normal",
+        "luminance": 15,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": 0.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 16.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ]
+      }
+    ]
+  }
+}

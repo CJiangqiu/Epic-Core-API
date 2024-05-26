@@ -21,8 +21,8 @@ public class EpicCoreApiModTabs {
 				tabData.accept(EpicCoreApiModBlocks.SILVER_ORE.get().asItem());
 				tabData.accept(EpicCoreApiModItems.RAW_SILVER.get());
 				tabData.accept(EpicCoreApiModItems.SILVER_INGOT.get());
-				tabData.accept(EpicCoreApiModBlocks.SILVER_BLOCK.get().asItem());
 				tabData.accept(EpicCoreApiModItems.SILVER_DUST.get());
+				tabData.accept(EpicCoreApiModBlocks.SILVER_BLOCK.get().asItem());
 				tabData.accept(EpicCoreApiModItems.STEEL_INGOT.get());
 				tabData.accept(EpicCoreApiModBlocks.STEEL_BLOCK.get().asItem());
 				tabData.accept(EpicCoreApiModItems.STEEL_HAMMER.get());

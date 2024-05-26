@@ -38,7 +38,10 @@ public class StaminaRecoverProcedure {
             return;
         int tickCount = entityTickCounter.getOrDefault(entity, 0) + 1;
         if (tickCount >= 20) {
-            if (((LivingEntity) entity).getAttribute(EpicCoreApiModAttributes.STAMINA.get()).getValue() < ((LivingEntity) entity).getAttribute(EpicCoreApiModAttributes.STAMINA.get()).getBaseValue()) {
+            double currentStamina = ((LivingEntity) entity).getAttribute(EpicCoreApiModAttributes.STAMINA.get()).getValue();
+            if (currentStamina < 0) {
+                ((LivingEntity) entity).getAttribute(EpicCoreApiModAttributes.STAMINA.get()).setBaseValue(0);
+            } else if (currentStamina < ((LivingEntity) entity).getAttribute(EpicCoreApiModAttributes.STAMINA.get()).getBaseValue()) {
                 AttributeModifier existingModifier = ((LivingEntity) entity).getAttribute(EpicCoreApiModAttributes.STAMINA.get()).getModifier(STAMINA_MODIFIER_UUID);
                 if (existingModifier != null) {
                     ((LivingEntity) entity).getAttribute(EpicCoreApiModAttributes.STAMINA.get()).removeModifier(STAMINA_MODIFIER_UUID);

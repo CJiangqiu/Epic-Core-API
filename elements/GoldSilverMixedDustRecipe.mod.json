@@ -15,7 +15,7 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:SilverDust"
+        "value": "TAG:forge:dusts/silver"
       },
       {
         "value": ""
@@ -24,7 +24,7 @@
         "value": "TAG:forge:hammers"
       },
       {
-        "value": "CUSTOM:GoldDust"
+        "value": "TAG:forge:dusts/gold"
       },
       {
         "value": ""

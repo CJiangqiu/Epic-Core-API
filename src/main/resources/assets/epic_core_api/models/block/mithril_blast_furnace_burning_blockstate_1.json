@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "epic_core_api:block/mithril_blast_furnace_top",
+    "up": "epic_core_api:block/mithril_blast_furnace_top",
+    "north": "epic_core_api:block/mithril_blast_furnace_front_normal",
+    "east": "epic_core_api:block/mithril_blast_furnace_side",
+    "south": "epic_core_api:block/mithril_blast_furnace_side",
+    "west": "epic_core_api:block/mithril_blast_furnace_side",
+    "particle": "epic_core_api:block/mithril_blast_furnace_front_normal"
+  },
+  "render_type": "solid"
+}

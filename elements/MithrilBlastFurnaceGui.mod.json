@@ -132,6 +132,92 @@
           "x": 195,
           "y": 62
         }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fuel.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "FuelGui"
+          },
+          "x": 204,
+          "y": 89
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fuel_0.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "FuelGui0"
+          },
+          "x": 204,
+          "y": 89
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fuel_1.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "FuelGui1"
+          },
+          "x": 204,
+          "y": 89
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fuel_2.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "FuelGui2"
+          },
+          "x": 204,
+          "y": 89
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fuel_3.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "FuelGui3"
+          },
+          "x": 204,
+          "y": 89
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fuel_4.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "FuelGui4"
+          },
+          "x": 204,
+          "y": 89
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_proc_fuel_energy_get",
+          "text": {
+            "fixedValue": "",
+            "name": "FuelEnergyGet"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 204,
+          "y": 89
+        }
       }
     ],
     "gridSettings": {

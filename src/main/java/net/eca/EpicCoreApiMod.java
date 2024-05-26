@@ -18,6 +18,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.eca.init.EpicCoreApiModTabs;
+import net.eca.init.EpicCoreApiModSounds;
 import net.eca.init.EpicCoreApiModParticleTypes;
 import net.eca.init.EpicCoreApiModMenus;
 import net.eca.init.EpicCoreApiModItems;
@@ -45,7 +46,7 @@ public class EpicCoreApiMod {
 		// End of user code block mod constructor
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
-
+		EpicCoreApiModSounds.REGISTRY.register(bus);
 		EpicCoreApiModBlocks.REGISTRY.register(bus);
 		EpicCoreApiModBlockEntities.REGISTRY.register(bus);
 		EpicCoreApiModItems.REGISTRY.register(bus);

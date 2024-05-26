@@ -24,7 +24,7 @@ import net.eca.block.entity.OrichalcumBlockBlockEntity;
 
 public class OrichalcumBlockBlock extends Block implements EntityBlock {
 	public OrichalcumBlockBlock() {
-		super(BlockBehaviour.Properties.of().sound(SoundType.METAL).strength(50f, 300f).lightLevel(s -> 1).requiresCorrectToolForDrops().hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true));
+		super(BlockBehaviour.Properties.of().sound(SoundType.METAL).strength(50f, 300f).lightLevel(s -> 5).requiresCorrectToolForDrops().hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true));
 	}
 
 	@Override
@@ -61,7 +61,8 @@ public class OrichalcumBlockBlock extends Block implements EntityBlock {
 	public boolean canHarvestBlock(BlockState state, BlockGetter world, BlockPos pos, Player player) {
 		if (player.getInventory().getSelected().getItem() instanceof PickaxeItem tieredItem)
 			return tieredItem.getTier().getLevel() >= 4;
-		return false;
+		else
+			return super.canHarvestBlock(state, world, pos, player);
 	}
 
 	@Override

@@ -119,7 +119,7 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "generateFeature": false,
+    "generateFeature": true,
     "restrictionBiomes": [
       {
         "value": "#is_ocean"
@@ -133,7 +133,7 @@
     "generationShape": "UNIFORM",
     "frequencyPerChunks": 2,
     "frequencyOnChunk": 4,
-    "minGenerateHeight": 1,
+    "minGenerateHeight": -32,
     "maxGenerateHeight": 32
   }
 }

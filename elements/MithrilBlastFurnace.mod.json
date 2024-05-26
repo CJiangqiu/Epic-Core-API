@@ -5,7 +5,7 @@
     "texture": "mithril_blast_furnace_top",
     "textureTop": "mithril_blast_furnace_top",
     "textureLeft": "mithril_blast_furnace_side",
-    "textureFront": "mithril_blast_furnace_front",
+    "textureFront": "mithril_blast_furnace_front_normal",
     "textureRight": "mithril_blast_furnace_side",
     "textureBack": "mithril_blast_furnace_side",
     "renderType": 10,

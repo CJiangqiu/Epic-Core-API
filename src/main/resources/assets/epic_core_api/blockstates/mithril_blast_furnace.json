@@ -1,18 +1,48 @@
 {
   "variants": {
-    "facing=north": {
+    "facing=north,blockstate=0": {
       "model": "epic_core_api:block/mithril_blast_furnace"
     },
-    "facing=east": {
+    "facing=east,blockstate=0": {
       "model": "epic_core_api:block/mithril_blast_furnace",
       "y": 90
     },
-    "facing=south": {
+    "facing=south,blockstate=0": {
       "model": "epic_core_api:block/mithril_blast_furnace",
       "y": 180
     },
-    "facing=west": {
+    "facing=west,blockstate=0": {
       "model": "epic_core_api:block/mithril_blast_furnace",
+      "y": 270
+    },
+    "facing=north,blockstate=1": {
+      "model": "epic_core_api:block/mithril_blast_furnace_burning_blockstate_0"
+    },
+    "facing=east,blockstate=1": {
+      "model": "epic_core_api:block/mithril_blast_furnace_burning_blockstate_0",
+      "y": 90
+    },
+    "facing=south,blockstate=1": {
+      "model": "epic_core_api:block/mithril_blast_furnace_burning_blockstate_0",
+      "y": 180
+    },
+    "facing=west,blockstate=1": {
+      "model": "epic_core_api:block/mithril_blast_furnace_burning_blockstate_0",
+      "y": 270
+    },
+    "facing=north,blockstate=2": {
+      "model": "epic_core_api:block/mithril_blast_furnace_burning_blockstate_1"
+    },
+    "facing=east,blockstate=2": {
+      "model": "epic_core_api:block/mithril_blast_furnace_burning_blockstate_1",
+      "y": 90
+    },
+    "facing=south,blockstate=2": {
+      "model": "epic_core_api:block/mithril_blast_furnace_burning_blockstate_1",
+      "y": 180
+    },
+    "facing=west,blockstate=2": {
+      "model": "epic_core_api:block/mithril_blast_furnace_burning_blockstate_1",
       "y": 270
     }
   }

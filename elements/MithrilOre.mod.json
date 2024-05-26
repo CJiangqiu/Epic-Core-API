@@ -12,7 +12,7 @@
     "customModelName": "Single texture",
     "rotationMode": 0,
     "enablePitch": false,
-    "emissiveRendering": false,
+    "emissiveRendering": true,
     "displayFluidOverlay": false,
     "itemTexture": "",
     "particleTexture": "",
@@ -133,7 +133,7 @@
     "generationShape": "TRIANGLE",
     "frequencyPerChunks": 5,
     "frequencyOnChunk": 3,
-    "minGenerateHeight": 1,
-    "maxGenerateHeight": 32
+    "minGenerateHeight": -64,
+    "maxGenerateHeight": 0
   }
 }

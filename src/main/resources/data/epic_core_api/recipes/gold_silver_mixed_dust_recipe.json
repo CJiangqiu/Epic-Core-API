@@ -3,13 +3,13 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "epic_core_api:silver_dust"
+      "tag": "forge:dusts/silver"
     },
     {
       "tag": "forge:hammers"
     },
     {
-      "item": "epic_core_api:gold_dust"
+      "tag": "forge:dusts/gold"
     }
   ],
   "result": {

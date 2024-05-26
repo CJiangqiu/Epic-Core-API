@@ -6,7 +6,7 @@
       "tag": "forge:hammers"
     },
     {
-      "item": "epic_core_api:silver_ingot"
+      "tag": "forge:ingots/silver"
     }
   ],
   "result": {

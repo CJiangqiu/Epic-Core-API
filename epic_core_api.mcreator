@@ -3,7 +3,7 @@
     {
       "name": "SilverDust",
       "type": "item",
-      "sortid": 5,
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silver_dust",
@@ -12,7 +12,8 @@
           "src/main/java/net/eca/item/SilverDustItem.java",
           "src/main/resources/assets/epic_core_api/models/item/silver_dust.json"
         ]
-      }
+      },
+      "path": "~/Items"
     },
     {
       "name": "SilverOre",
@@ -32,12 +33,13 @@
           "src/main/resources/data/epic_core_api/loot_tables/blocks/silver_ore.json",
           "src/main/resources/assets/epic_core_api/blockstates/silver_ore.json"
         ]
-      }
+      },
+      "path": "~/Blocks"
     },
     {
       "name": "SilverBlock",
       "type": "block",
-      "sortid": 4,
+      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silver_block",
@@ -49,7 +51,8 @@
           "src/main/resources/data/epic_core_api/loot_tables/blocks/silver_block.json",
           "src/main/resources/assets/epic_core_api/blockstates/silver_block.json"
         ]
-      }
+      },
+      "path": "~/Blocks"
     },
     {
       "name": "SilverIngot",
@@ -63,7 +66,8 @@
           "src/main/java/net/eca/item/SilverIngotItem.java",
           "src/main/resources/assets/epic_core_api/models/item/silver_ingot.json"
         ]
-      }
+      },
+      "path": "~/Items"
     },
     {
       "name": "SteelIngot",
@@ -77,7 +81,8 @@
           "src/main/java/net/eca/item/SteelIngotItem.java",
           "src/main/resources/assets/epic_core_api/models/item/steel_ingot.json"
         ]
-      }
+      },
+      "path": "~/Items"
     },
     {
       "name": "SteelIngotRecipe",
@@ -90,7 +95,8 @@
         "files": [
           "src/main/resources/data/epic_core_api/recipes/steel_ingot_recipe.json"
         ]
-      }
+      },
+      "path": "~/Recipes"
     },
     {
       "name": "SteelHammer",
@@ -104,7 +110,8 @@
           "src/main/java/net/eca/item/SteelHammerItem.java",
           "src/main/resources/assets/epic_core_api/models/item/steel_hammer.json"
         ]
-      }
+      },
+      "path": "~/Items"
     },
     {
       "name": "SteelHammerRecipe",
@@ -117,7 +124,8 @@
         "files": [
           "src/main/resources/data/epic_core_api/recipes/steel_hammer_recipe.json"
         ]
-      }
+      },
+      "path": "~/Recipes"
     },
     {
       "name": "SilverIngotRecipe",
@@ -130,7 +138,8 @@
         "files": [
           "src/main/resources/data/epic_core_api/recipes/silver_ingot_recipe.json"
         ]
-      }
+      },
+      "path": "~/Recipes"
     },
     {
       "name": "SilverIngotRecipe2",
@@ -143,7 +152,8 @@
         "files": [
           "src/main/resources/data/epic_core_api/recipes/silver_ingot_recipe_2.json"
         ]
-      }
+      },
+      "path": "~/Recipes"
     },
     {
       "name": "SilverBlockRecipe",
@@ -156,7 +166,8 @@
         "files": [
           "src/main/resources/data/epic_core_api/recipes/silver_block_recipe.json"
         ]
-      }
+      },
+      "path": "~/Recipes"
     },
     {
       "name": "SilverDustRecipe",
@@ -169,7 +180,8 @@
         "files": [
           "src/main/resources/data/epic_core_api/recipes/silver_dust_recipe.json"
         ]
-      }
+      },
+      "path": "~/Recipes"
     },
     {
       "name": "SteelBlock",
@@ -186,7 +198,8 @@
           "src/main/resources/data/epic_core_api/loot_tables/blocks/steel_block.json",
           "src/main/resources/assets/epic_core_api/models/item/steel_block.json"
         ]
-      }
+      },
+      "path": "~/Blocks"
     },
     {
       "name": "SteelBlockRecipe",
@@ -199,34 +212,37 @@
         "files": [
           "src/main/resources/data/epic_core_api/recipes/steel_block_recipe.json"
         ]
-      }
+      },
+      "path": "~/Recipes"
     },
     {
       "name": "Stamina",
       "type": "attribute",
-      "sortid": 34,
+      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stamina",
       "metadata": {
         "files": []
-      }
+      },
+      "path": "~/BattleSystem/Stamina"
     },
     {
       "name": "Mana",
       "type": "attribute",
-      "sortid": 35,
+      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mana",
       "metadata": {
         "files": []
-      }
+      },
+      "path": "~/BattleSystem/Mana"
     },
     {
       "name": "StaminaTextShow",
       "type": "procedure",
-      "sortid": 36,
+      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stamina_text_show",
@@ -241,12 +257,13 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/BattleSystem"
     },
     {
       "name": "StaminaManaOverlay",
       "type": "overlay",
-      "sortid": 37,
+      "sortid": 31,
       "compiles": true,
       "locked_code": true,
       "registry_name": "stamina_mana_overlay",
@@ -254,12 +271,13 @@
         "files": [
           "src/main/java/net/eca/client/screens/StaminaManaOverlayOverlay.java"
         ]
-      }
+      },
+      "path": "~/BattleSystem"
     },
     {
       "name": "ManaTextShow",
       "type": "procedure",
-      "sortid": 38,
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mana_text_show",
@@ -274,12 +292,13 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/BattleSystem"
     },
     {
       "name": "SoulDamage",
       "type": "damagetype",
-      "sortid": 42,
+      "sortid": 33,
       "compiles": true,
       "locked_code": true,
       "registry_name": "soul_damage",
@@ -292,7 +311,7 @@
     {
       "name": "SoulDamageAttack",
       "type": "procedure",
-      "sortid": 43,
+      "sortid": 34,
       "compiles": true,
       "locked_code": true,
       "registry_name": "soul_damage_attack",
@@ -315,7 +334,7 @@
     {
       "name": "Sacrifice",
       "type": "enchantment",
-      "sortid": 44,
+      "sortid": 35,
       "compiles": true,
       "locked_code": true,
       "registry_name": "sacrifice",
@@ -323,12 +342,13 @@
         "files": [
           "src/main/java/net/eca/enchantment/SacrificeEnchantment.java"
         ]
-      }
+      },
+      "path": "~/Enchments"
     },
     {
       "name": "SacrificeEnchantedItemAttack",
       "type": "procedure",
-      "sortid": 45,
+      "sortid": 36,
       "compiles": true,
       "locked_code": true,
       "registry_name": "sacrifice_enchanted_item_attack",
@@ -350,12 +370,13 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Enchments"
     },
     {
       "name": "Poisoning",
       "type": "enchantment",
-      "sortid": 46,
+      "sortid": 37,
       "compiles": true,
       "locked_code": true,
       "registry_name": "poisoning",
@@ -363,12 +384,13 @@
         "files": [
           "src/main/java/net/eca/enchantment/PoisoningEnchantment.java"
         ]
-      }
+      },
+      "path": "~/Enchments"
     },
     {
       "name": "PoisoningEnchantedItemAttack",
       "type": "procedure",
-      "sortid": 47,
+      "sortid": 38,
       "compiles": true,
       "locked_code": true,
       "registry_name": "poisoning_enchanted_item_attack",
@@ -377,12 +399,13 @@
           "src/main/java/net/eca/procedures/PoisoningEnchantedItemAttackProcedure.java"
         ],
         "dependencies": []
-      }
+      },
+      "path": "~/Enchments"
     },
     {
       "name": "DivineWrath",
       "type": "enchantment",
-      "sortid": 48,
+      "sortid": 39,
       "compiles": true,
       "locked_code": true,
       "registry_name": "divine_wrath",
@@ -390,12 +413,13 @@
         "files": [
           "src/main/java/net/eca/enchantment/DivineWrathEnchantment.java"
         ]
-      }
+      },
+      "path": "~/Enchments"
     },
     {
       "name": "DivineWrathEnchantedItemAttack",
       "type": "procedure",
-      "sortid": 49,
+      "sortid": 40,
       "compiles": true,
       "locked_code": true,
       "registry_name": "divine_wrath_enchanted_item_attack",
@@ -414,12 +438,13 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Enchments"
     },
     {
       "name": "DamageReport",
       "type": "procedure",
-      "sortid": 50,
+      "sortid": 41,
       "compiles": true,
       "locked_code": false,
       "registry_name": "damage_report",
@@ -457,12 +482,13 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Functions"
     },
     {
       "name": "EpicCoreApiConfiguration",
       "type": "config",
-      "sortid": 51,
+      "sortid": 42,
       "compiles": true,
       "locked_code": false,
       "registry_name": "epic_core_api_configuration",
@@ -475,7 +501,7 @@
     {
       "name": "PresetCommand",
       "type": "procedure",
-      "sortid": 52,
+      "sortid": 43,
       "compiles": true,
       "locked_code": true,
       "registry_name": "preset_command",
@@ -501,12 +527,13 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Functions"
     },
     {
       "name": "EpicCore",
       "type": "item",
-      "sortid": 53,
+      "sortid": 44,
       "compiles": true,
       "locked_code": false,
       "registry_name": "epic_core",
@@ -520,7 +547,7 @@
     {
       "name": "EpicCoreAPI",
       "type": "tab",
-      "sortid": 54,
+      "sortid": 45,
       "compiles": true,
       "locked_code": false,
       "registry_name": "epic_core_api",
@@ -531,7 +558,7 @@
     {
       "name": "OverlayShow",
       "type": "procedure",
-      "sortid": 55,
+      "sortid": 46,
       "compiles": true,
       "locked_code": false,
       "registry_name": "overlay_show",
@@ -546,12 +573,13 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/BattleSystem"
     },
     {
       "name": "NormalWeaponStaminaReduce",
       "type": "procedure",
-      "sortid": 56,
+      "sortid": 47,
       "compiles": true,
       "locked_code": true,
       "registry_name": "normal_weapon_stamina_reduce",
@@ -562,12 +590,13 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/BattleSystem/Stamina"
     },
     {
       "name": "SunderArmor",
       "type": "enchantment",
-      "sortid": 58,
+      "sortid": 48,
       "compiles": true,
       "locked_code": true,
       "registry_name": "sunder_armor",
@@ -575,7 +604,8 @@
         "files": [
           "src/main/java/net/eca/enchantment/SunderArmorEnchantment.java"
         ]
-      }
+      },
+      "path": "~/Enchments"
     },
     {
       "name": "GoldDust",
@@ -589,12 +619,13 @@
           "src/main/java/net/eca/item/GoldDustItem.java",
           "src/main/resources/assets/epic_core_api/models/item/gold_dust.json"
         ]
-      }
+      },
+      "path": "~/Items"
     },
     {
       "name": "GoldDustRecipe",
       "type": "recipe",
-      "sortid": 61,
+      "sortid": 49,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gold_dust_recipe",
@@ -602,7 +633,8 @@
         "files": [
           "src/main/resources/data/epic_core_api/recipes/gold_dust_recipe.json"
         ]
-      }
+      },
+      "path": "~/Recipes"
     },
     {
       "name": "GoldSilverMixedDust",
@@ -616,12 +648,13 @@
           "src/main/java/net/eca/item/GoldSilverMixedDustItem.java",
           "src/main/resources/assets/epic_core_api/models/item/gold_silver_mixed_dust.json"
         ]
-      }
+      },
+      "path": "~/Items"
     },
     {
       "name": "GoldSilverMixedDustRecipe",
       "type": "recipe",
-      "sortid": 62,
+      "sortid": 50,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gold_silver_mixed_dust_recipe",
@@ -629,7 +662,8 @@
         "files": [
           "src/main/resources/data/epic_core_api/recipes/gold_silver_mixed_dust_recipe.json"
         ]
-      }
+      },
+      "path": "~/Recipes"
     },
     {
       "name": "BlackCopperIngot",
@@ -643,7 +677,8 @@
           "src/main/resources/assets/epic_core_api/models/item/black_copper_ingot.json",
           "src/main/java/net/eca/item/BlackCopperIngotItem.java"
         ]
-      }
+      },
+      "path": "~/Items"
     },
     {
       "name": "BlackCopperIngotUpgradeSmithingTemplate",
@@ -657,12 +692,13 @@
           "src/main/java/net/eca/item/BlackCopperIngotUpgradeSmithingTemplateItem.java",
           "src/main/resources/assets/epic_core_api/models/item/black_copper_ingot_upgrade_smithing_template.json"
         ]
-      }
+      },
+      "path": "~/Items"
     },
     {
       "name": "BlackCopperIngotRecipe",
       "type": "recipe",
-      "sortid": 65,
+      "sortid": 51,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_copper_ingot_recipe",
@@ -670,12 +706,13 @@
         "files": [
           "src/main/resources/data/epic_core_api/recipes/black_copper_ingot_recipe.json"
         ]
-      }
+      },
+      "path": "~/Recipes"
     },
     {
       "name": "BlackCopperIngotUpgradeSmithingTemplateRecipe",
       "type": "recipe",
-      "sortid": 66,
+      "sortid": 52,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_copper_ingot_upgrade_smithing_template_recipe",
@@ -683,7 +720,8 @@
         "files": [
           "src/main/resources/data/epic_core_api/recipes/black_copper_ingot_upgrade_smithing_template_recipe.json"
         ]
-      }
+      },
+      "path": "~/Recipes"
     },
     {
       "name": "BlackCopperBlock",
@@ -700,7 +738,8 @@
           "src/main/resources/assets/epic_core_api/blockstates/black_copper_block.json",
           "src/main/resources/assets/epic_core_api/models/block/black_copper_block.json"
         ]
-      }
+      },
+      "path": "~/Blocks"
     },
     {
       "name": "MithrilIngot",
@@ -714,7 +753,8 @@
           "src/main/resources/assets/epic_core_api/models/item/mithril_ingot.json",
           "src/main/java/net/eca/item/MithrilIngotItem.java"
         ]
-      }
+      },
+      "path": "~/Items"
     },
     {
       "name": "MithrilOre",
@@ -734,7 +774,8 @@
           "src/main/resources/data/epic_core_api/forge/biome_modifier/mithril_ore_biome_modifier.json",
           "src/main/resources/assets/epic_core_api/models/item/mithril_ore.json"
         ]
-      }
+      },
+      "path": "~/Blocks"
     },
     {
       "name": "MithrilBlock",
@@ -751,12 +792,13 @@
           "src/main/resources/data/epic_core_api/loot_tables/blocks/mithril_block.json",
           "src/main/resources/assets/epic_core_api/models/block/mithril_block.json"
         ]
-      }
+      },
+      "path": "~/Blocks"
     },
     {
       "name": "MithrilIngotRecipe",
       "type": "recipe",
-      "sortid": 69,
+      "sortid": 53,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mithril_ingot_recipe",
@@ -764,12 +806,13 @@
         "files": [
           "src/main/resources/data/epic_core_api/recipes/mithril_ingot_recipe.json"
         ]
-      }
+      },
+      "path": "~/Recipes"
     },
     {
       "name": "MithrilBlockRecipe",
       "type": "recipe",
-      "sortid": 70,
+      "sortid": 54,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mithril_block_recipe",
@@ -777,12 +820,13 @@
         "files": [
           "src/main/resources/data/epic_core_api/recipes/mithril_block_recipe.json"
         ]
-      }
+      },
+      "path": "~/Recipes"
     },
     {
       "name": "MithrilBlockIngotRecipe",
       "type": "recipe",
-      "sortid": 71,
+      "sortid": 55,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mithril_block_ingot_recipe",
@@ -790,7 +834,8 @@
         "files": [
           "src/main/resources/data/epic_core_api/recipes/mithril_block_ingot_recipe.json"
         ]
-      }
+      },
+      "path": "~/Recipes"
     },
     {
       "name": "ElderMetalWreckage",
@@ -802,18 +847,22 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/epic_core_api/models/item/elder_metal_wreckage.json",
+          "src/main/resources/data/epic_core_api/worldgen/placed_feature/elder_metal_wreckage.json",
           "src/main/resources/data/epic_core_api/loot_tables/blocks/elder_metal_wreckage.json",
           "src/main/java/net/eca/block/entity/ElderMetalWreckageBlockEntity.java",
           "src/main/resources/assets/epic_core_api/blockstates/elder_metal_wreckage.json",
           "src/main/java/net/eca/block/ElderMetalWreckageBlock.java",
-          "src/main/resources/assets/epic_core_api/models/block/elder_metal_wreckage.json"
+          "src/main/resources/data/epic_core_api/worldgen/configured_feature/elder_metal_wreckage.json",
+          "src/main/resources/assets/epic_core_api/models/block/elder_metal_wreckage.json",
+          "src/main/resources/data/epic_core_api/forge/biome_modifier/elder_metal_wreckage_biome_modifier.json"
         ]
-      }
+      },
+      "path": "~/Blocks"
     },
     {
       "name": "SteelIngotRecipe2",
       "type": "recipe",
-      "sortid": 72,
+      "sortid": 56,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_ingot_recipe_2",
@@ -821,7 +870,8 @@
         "files": [
           "src/main/resources/data/epic_core_api/recipes/steel_ingot_recipe_2.json"
         ]
-      }
+      },
+      "path": "~/Recipes"
     },
     {
       "name": "RawSilver",
@@ -835,7 +885,8 @@
           "src/main/java/net/eca/item/RawSilverItem.java",
           "src/main/resources/assets/epic_core_api/models/item/raw_silver.json"
         ]
-      }
+      },
+      "path": "~/Items"
     },
     {
       "name": "OrichalcumIngot",
@@ -849,7 +900,8 @@
           "src/main/java/net/eca/item/OrichalcumIngotItem.java",
           "src/main/resources/assets/epic_core_api/models/item/orichalcum_ingot.json"
         ]
-      }
+      },
+      "path": "~/Items"
     },
     {
       "name": "MithrilBlastFurnace",
@@ -867,12 +919,13 @@
           "src/main/resources/assets/epic_core_api/blockstates/mithril_blast_furnace.json",
           "src/main/java/net/eca/block/MithrilBlastFurnaceBlock.java"
         ]
-      }
+      },
+      "path": "~/Blocks/MithrilBlust"
     },
     {
       "name": "MithrilBlastFurnaceGui",
       "type": "gui",
-      "sortid": 73,
+      "sortid": 57,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mithril_blast_furnace_gui",
@@ -881,12 +934,13 @@
           "src/main/java/net/eca/client/gui/MithrilBlastFurnaceGuiScreen.java",
           "src/main/java/net/eca/world/inventory/MithrilBlastFurnaceGuiMenu.java"
         ]
-      }
+      },
+      "path": "~/Blocks/MithrilBlust"
     },
     {
       "name": "MithrilBlastFurnaceReplace",
       "type": "procedure",
-      "sortid": 74,
+      "sortid": 58,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mithril_blast_furnace_replace",
@@ -912,12 +966,13 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Blocks/MithrilBlust"
     },
     {
       "name": "MithrilBlastFurnaceTickUpdate",
       "type": "procedure",
-      "sortid": 75,
+      "sortid": 59,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mithril_blast_furnace_tick_update",
@@ -943,12 +998,13 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Blocks/MithrilBlust"
     },
     {
       "name": "BurningParticle",
       "type": "particle",
-      "sortid": 76,
+      "sortid": 60,
       "compiles": true,
       "locked_code": false,
       "registry_name": "burning_particle",
@@ -962,7 +1018,7 @@
     {
       "name": "MbfArrowShow1",
       "type": "procedure",
-      "sortid": 77,
+      "sortid": 61,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mbf_arrow_show_1",
@@ -989,12 +1045,13 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Blocks/MithrilBlust"
     },
     {
       "name": "MbfArrowShow2",
       "type": "procedure",
-      "sortid": 78,
+      "sortid": 62,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mbf_arrow_show_2",
@@ -1021,12 +1078,13 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Blocks/MithrilBlust"
     },
     {
       "name": "MbfArrowShow4",
       "type": "procedure",
-      "sortid": 79,
+      "sortid": 63,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mbf_arrow_show_4",
@@ -1053,12 +1111,13 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Blocks/MithrilBlust"
     },
     {
       "name": "MbfArrowShow5",
       "type": "procedure",
-      "sortid": 80,
+      "sortid": 64,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mbf_arrow_show_5",
@@ -1085,12 +1144,13 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Blocks/MithrilBlust"
     },
     {
       "name": "MbfArrowShow3",
       "type": "procedure",
-      "sortid": 81,
+      "sortid": 65,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mbf_arrow_show_3",
@@ -1117,12 +1177,13 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Blocks/MithrilBlust"
     },
     {
       "name": "BlackCopperBlockRecipe",
       "type": "recipe",
-      "sortid": 82,
+      "sortid": 66,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_copper_block_recipe",
@@ -1130,12 +1191,13 @@
         "files": [
           "src/main/resources/data/epic_core_api/recipes/black_copper_block_recipe.json"
         ]
-      }
+      },
+      "path": "~/Recipes"
     },
     {
       "name": "MithrilBlastFurnaceRecipe",
       "type": "recipe",
-      "sortid": 83,
+      "sortid": 67,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mithril_blast_furnace_recipe",
@@ -1143,12 +1205,13 @@
         "files": [
           "src/main/resources/data/epic_core_api/recipes/mithril_blast_furnace_recipe.json"
         ]
-      }
+      },
+      "path": "~/Recipes"
     },
     {
       "name": "MithrilBlastFurnaceSmelting",
       "type": "jeirecipetype",
-      "sortid": 84,
+      "sortid": 68,
       "compiles": true,
       "locked_code": true,
       "registry_name": "mithril_blast_furnace_smelting",
@@ -1157,12 +1220,13 @@
           "src/main/java/net/eca/jei_recipes/MithrilBlastFurnaceSmeltingRecipeCategory.java",
           "src/main/java/net/eca/jei_recipes/MithrilBlastFurnaceSmeltingRecipe.java"
         ]
-      }
+      },
+      "path": "~/JEI"
     },
     {
       "name": "OrichalcumIngotJeiRecipe",
       "type": "jeirecipe",
-      "sortid": 85,
+      "sortid": 69,
       "compiles": true,
       "locked_code": false,
       "registry_name": "orichalcum_ingot_jei_recipe",
@@ -1170,18 +1234,20 @@
         "files": [
           "src/main/resources/data/epic_core_api/recipes/orichalcum_ingot_jei_recipe.json"
         ]
-      }
+      },
+      "path": "~/JEI"
     },
     {
       "name": "SteelIngotJeiInformation",
       "type": "jeiinformation",
-      "sortid": 86,
+      "sortid": 70,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_ingot_jei_information",
       "metadata": {
         "files": []
-      }
+      },
+      "path": "~/JEI"
     },
     {
       "name": "OrichalcumBlock",
@@ -1199,67 +1265,73 @@
           "src/main/resources/assets/epic_core_api/models/block/orichalcum_block.json",
           "src/main/java/net/eca/block/OrichalcumBlockBlock.java"
         ]
-      }
+      },
+      "path": "~/Blocks"
     },
     {
       "name": "SteelHammerJeiInformation",
       "type": "jeiinformation",
-      "sortid": 91,
+      "sortid": 71,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_hammer_jei_information",
       "metadata": {
         "files": []
-      }
+      },
+      "path": "~/JEI"
     },
     {
       "name": "SilverOreJeiInformation",
       "type": "jeiinformation",
-      "sortid": 92,
+      "sortid": 72,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silver_ore_jei_information",
       "metadata": {
         "files": []
-      }
+      },
+      "path": "~/JEI"
     },
     {
       "name": "MithrilOreJeiInformation",
       "type": "jeiinformation",
-      "sortid": 93,
+      "sortid": 73,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mithril_ore_jei_information",
       "metadata": {
         "files": []
-      }
+      },
+      "path": "~/JEI"
     },
     {
       "name": "MithrilBlastFurnaceJeiInformation",
       "type": "jeiinformation",
-      "sortid": 94,
+      "sortid": 74,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mithril_blast_furnace_jei_information",
       "metadata": {
         "files": []
-      }
+      },
+      "path": "~/JEI"
     },
     {
       "name": "ElderMetalWreckageJeiInformation",
       "type": "jeiinformation",
-      "sortid": 95,
+      "sortid": 75,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elder_metal_wreckage_jei_information",
       "metadata": {
         "files": []
-      }
+      },
+      "path": "~/JEI"
     },
     {
       "name": "SunderArmorEnchantedItemAttacked",
       "type": "procedure",
-      "sortid": 96,
+      "sortid": 76,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sunder_armor_enchanted_item_attacked",
@@ -1281,12 +1353,13 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Enchments"
     },
     {
       "name": "SoulProtection",
       "type": "enchantment",
-      "sortid": 97,
+      "sortid": 77,
       "compiles": true,
       "locked_code": true,
       "registry_name": "soul_protection",
@@ -1294,12 +1367,13 @@
         "files": [
           "src/main/java/net/eca/enchantment/SoulProtectionEnchantment.java"
         ]
-      }
+      },
+      "path": "~/Enchments"
     },
     {
       "name": "Phantom",
       "type": "enchantment",
-      "sortid": 98,
+      "sortid": 78,
       "compiles": true,
       "locked_code": false,
       "registry_name": "phantom",
@@ -1307,12 +1381,13 @@
         "files": [
           "src/main/java/net/eca/enchantment/PhantomEnchantment.java"
         ]
-      }
+      },
+      "path": "~/Enchments"
     },
     {
       "name": "PhantomEnchantedArmorBeAttacked",
       "type": "procedure",
-      "sortid": 99,
+      "sortid": 79,
       "compiles": true,
       "locked_code": false,
       "registry_name": "phantom_enchanted_armor_be_attacked",
@@ -1330,12 +1405,13 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Enchments"
     },
     {
       "name": "DivineBlessing",
       "type": "enchantment",
-      "sortid": 100,
+      "sortid": 80,
       "compiles": true,
       "locked_code": false,
       "registry_name": "divine_blessing",
@@ -1343,12 +1419,13 @@
         "files": [
           "src/main/java/net/eca/enchantment/DivineBlessingEnchantment.java"
         ]
-      }
+      },
+      "path": "~/Enchments"
     },
     {
       "name": "DivineBlessingEnchantedArmorBeAttacked",
       "type": "procedure",
-      "sortid": 101,
+      "sortid": 81,
       "compiles": true,
       "locked_code": false,
       "registry_name": "divine_blessing_enchanted_armor_be_attacked",
@@ -1366,12 +1443,13 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Enchments"
     },
     {
       "name": "Reflection",
       "type": "enchantment",
-      "sortid": 102,
+      "sortid": 82,
       "compiles": true,
       "locked_code": false,
       "registry_name": "reflection",
@@ -1379,12 +1457,13 @@
         "files": [
           "src/main/java/net/eca/enchantment/ReflectionEnchantment.java"
         ]
-      }
+      },
+      "path": "~/Enchments"
     },
     {
       "name": "ReflectionEnchantedArmorBeAttacked",
       "type": "procedure",
-      "sortid": 105,
+      "sortid": 83,
       "compiles": true,
       "locked_code": false,
       "registry_name": "reflection_enchanted_armor_be_attacked",
@@ -1410,12 +1489,13 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Enchments"
     },
     {
       "name": "Explosion",
       "type": "enchantment",
-      "sortid": 106,
+      "sortid": 84,
       "compiles": true,
       "locked_code": true,
       "registry_name": "explosion",
@@ -1423,12 +1503,13 @@
         "files": [
           "src/main/java/net/eca/enchantment/ExplosionEnchantment.java"
         ]
-      }
+      },
+      "path": "~/Enchments"
     },
     {
       "name": "StaminaRecover",
       "type": "procedure",
-      "sortid": 111,
+      "sortid": 85,
       "compiles": true,
       "locked_code": true,
       "registry_name": "stamina_recover",
@@ -1442,12 +1523,13 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/BattleSystem/Stamina"
     },
     {
       "name": "GiantWeaponStaminaReduce",
       "type": "procedure",
-      "sortid": 112,
+      "sortid": 86,
       "compiles": true,
       "locked_code": true,
       "registry_name": "giant_weapon_stamina_reduce",
@@ -1456,12 +1538,13 @@
           "src/main/java/net/eca/procedures/GiantWeaponStaminaReduceProcedure.java"
         ],
         "dependencies": []
-      }
+      },
+      "path": "~/BattleSystem/Stamina"
     },
     {
       "name": "RangedWeaponStaminaReduce",
       "type": "procedure",
-      "sortid": 113,
+      "sortid": 87,
       "compiles": true,
       "locked_code": true,
       "registry_name": "ranged_weapon_stamina_reduce",
@@ -1470,12 +1553,13 @@
           "src/main/java/net/eca/procedures/RangedWeaponStaminaReduceProcedure.java"
         ],
         "dependencies": []
-      }
+      },
+      "path": "~/BattleSystem/Stamina"
     },
     {
       "name": "ExplosionEnchantedRangedWeaponHit",
       "type": "procedure",
-      "sortid": 114,
+      "sortid": 88,
       "compiles": true,
       "locked_code": true,
       "registry_name": "explosion_enchanted_ranged_weapon_hit",
@@ -1484,12 +1568,13 @@
           "src/main/java/net/eca/procedures/ExplosionEnchantedRangedWeaponHitProcedure.java"
         ],
         "dependencies": []
-      }
+      },
+      "path": "~/Enchments"
     },
     {
       "name": "MagicWeaponManaReduce",
       "type": "procedure",
-      "sortid": 115,
+      "sortid": 89,
       "compiles": true,
       "locked_code": true,
       "registry_name": "magic_weapon_mana_reduce",
@@ -1498,12 +1583,13 @@
           "src/main/java/net/eca/procedures/MagicWeaponManaReduceProcedure.java"
         ],
         "dependencies": []
-      }
+      },
+      "path": "~/BattleSystem/Mana"
     },
     {
       "name": "ManaRecover",
       "type": "procedure",
-      "sortid": 116,
+      "sortid": 90,
       "compiles": true,
       "locked_code": true,
       "registry_name": "mana_recover",
@@ -1512,12 +1598,13 @@
           "src/main/java/net/eca/procedures/ManaRecoverProcedure.java"
         ],
         "dependencies": []
-      }
+      },
+      "path": "~/BattleSystem/Mana"
     },
     {
       "name": "ManaArrow",
       "type": "item",
-      "sortid": 122,
+      "sortid": 91,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mana_arrow",
@@ -1531,7 +1618,7 @@
     {
       "name": "ShotManaArrow",
       "type": "projectile",
-      "sortid": 123,
+      "sortid": 92,
       "compiles": true,
       "locked_code": true,
       "registry_name": "shot_mana_arrow",
@@ -1545,18 +1632,19 @@
     {
       "name": "SkillPoints",
       "type": "attribute",
-      "sortid": 126,
+      "sortid": 93,
       "compiles": true,
       "locked_code": false,
       "registry_name": "skill_points",
       "metadata": {
         "files": []
-      }
+      },
+      "path": "~/BattleSystem"
     },
     {
       "name": "SkillPointsGet",
       "type": "procedure",
-      "sortid": 127,
+      "sortid": 94,
       "compiles": true,
       "locked_code": false,
       "registry_name": "skill_points_get",
@@ -1571,61 +1659,13 @@
             "type": "entity"
           }
         ]
-      }
-    },
-    {
-      "name": "RemoveEpicCoreApiOverlay",
-      "type": "procedure",
-      "sortid": 131,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "remove_epic_core_api_overlay",
-      "metadata": {
-        "files": [
-          "src/main/java/net/eca/procedures/RemoveEpicCoreApiOverlayProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
-      "name": "EditStaminaManaOverlay",
-      "type": "gui",
-      "sortid": 132,
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "edit_stamina_mana_overlay",
-      "metadata": {
-        "files": [
-          "src/main/java/net/eca/client/gui/EditStaminaManaOverlayScreen.java",
-          "src/main/java/net/eca/world/inventory/EditStaminaManaOverlayMenu.java"
-        ]
-      }
+      },
+      "path": "~/BattleSystem"
     },
     {
       "name": "SilverBlockIngotRecipe",
       "type": "recipe",
-      "sortid": 133,
+      "sortid": 95,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silver_block_ingot_recipe",
@@ -1633,12 +1673,13 @@
         "files": [
           "src/main/resources/data/epic_core_api/recipes/silver_block_ingot_recipe.json"
         ]
-      }
+      },
+      "path": "~/Recipes"
     },
     {
       "name": "SteelBlockIngotRecipe",
       "type": "recipe",
-      "sortid": 134,
+      "sortid": 96,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_block_ingot_recipe",
@@ -1646,12 +1687,13 @@
         "files": [
           "src/main/resources/data/epic_core_api/recipes/steel_block_ingot_recipe.json"
         ]
-      }
+      },
+      "path": "~/Recipes"
     },
     {
       "name": "BlackCopperBlockIngotRecipe",
       "type": "recipe",
-      "sortid": 135,
+      "sortid": 97,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_copper_block_ingot_recipe",
@@ -1659,12 +1701,13 @@
         "files": [
           "src/main/resources/data/epic_core_api/recipes/black_copper_block_ingot_recipe.json"
         ]
-      }
+      },
+      "path": "~/Recipes"
     },
     {
       "name": "OrichalcumBlockIngotRecipe",
       "type": "recipe",
-      "sortid": 136,
+      "sortid": 98,
       "compiles": true,
       "locked_code": false,
       "registry_name": "orichalcum_block_ingot_recipe",
@@ -1672,12 +1715,13 @@
         "files": [
           "src/main/resources/data/epic_core_api/recipes/orichalcum_block_ingot_recipe.json"
         ]
-      }
+      },
+      "path": "~/Recipes"
     },
     {
       "name": "OrichalcumBlockRecipe",
       "type": "recipe",
-      "sortid": 137,
+      "sortid": 99,
       "compiles": true,
       "locked_code": false,
       "registry_name": "orichalcum_block_recipe",
@@ -1685,23 +1729,25 @@
         "files": [
           "src/main/resources/data/epic_core_api/recipes/orichalcum_block_recipe.json"
         ]
-      }
+      },
+      "path": "~/Recipes"
     },
     {
       "name": "RawSilverJeiInformation",
       "type": "jeiinformation",
-      "sortid": 138,
+      "sortid": 100,
       "compiles": true,
       "locked_code": false,
       "registry_name": "raw_silver_jei_information",
       "metadata": {
         "files": []
-      }
+      },
+      "path": "~/JEI"
     },
     {
       "name": "ChargeAttack",
       "type": "procedure",
-      "sortid": 141,
+      "sortid": 101,
       "compiles": true,
       "locked_code": true,
       "registry_name": "charge_attack",
@@ -1719,12 +1765,13 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/BattleSystem/Stamina/Warrior"
     },
     {
       "name": "ChargeAttackUnlock",
       "type": "procedure",
-      "sortid": 143,
+      "sortid": 102,
       "compiles": true,
       "locked_code": false,
       "registry_name": "charge_attack_unlock",
@@ -1754,12 +1801,13 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/BattleSystem/Stamina/Warrior"
     },
     {
       "name": "SkillPointsCommand",
       "type": "command",
-      "sortid": 144,
+      "sortid": 103,
       "compiles": true,
       "locked_code": true,
       "registry_name": "skill_points_command",
@@ -1767,26 +1815,29 @@
         "files": [
           "src/main/java/net/eca/command/SkillPointsCommandCommand.java"
         ]
-      }
+      },
+      "path": "~/BattleSystem"
     },
     {
       "name": "SkillPointsGui",
       "type": "gui",
-      "sortid": 146,
+      "sortid": 104,
       "compiles": true,
       "locked_code": false,
       "registry_name": "skill_points_gui",
       "metadata": {
         "files": [
           "src/main/java/net/eca/client/gui/SkillPointsGuiScreen.java",
-          "src/main/java/net/eca/world/inventory/SkillPointsGuiMenu.java"
+          "src/main/java/net/eca/world/inventory/SkillPointsGuiMenu.java",
+          "src/main/java/net/eca/network/SkillPointsGuiButtonMessage.java"
         ]
-      }
+      },
+      "path": "~/BattleSystem"
     },
     {
       "name": "OpenSkillPointsGui",
       "type": "procedure",
-      "sortid": 147,
+      "sortid": 105,
       "compiles": true,
       "locked_code": false,
       "registry_name": "open_skill_points_gui",
@@ -1816,25 +1867,13 @@
             "type": "world"
           }
         ]
-      }
-    },
-    {
-      "name": "SkillPointsGuiButton",
-      "type": "keybind",
-      "sortid": 148,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "skill_points_gui_button",
-      "metadata": {
-        "files": [
-          "src/main/java/net/eca/network/SkillPointsGuiButtonMessage.java"
-        ]
-      }
+      },
+      "path": "~/BattleSystem"
     },
     {
       "name": "SetupAnimations",
       "type": "procedure",
-      "sortid": 149,
+      "sortid": 106,
       "compiles": true,
       "locked_code": false,
       "registry_name": "setup_animations",
@@ -1843,12 +1882,13 @@
           "src/main/java/net/eca/procedures/SetupAnimationsProcedure.java"
         ],
         "dependencies": []
-      }
+      },
+      "path": "~/BattleSystem"
     },
     {
       "name": "CombatSkillsButton",
       "type": "keybind",
-      "sortid": 150,
+      "sortid": 107,
       "compiles": true,
       "locked_code": false,
       "registry_name": "combat_skills_button",
@@ -1856,12 +1896,13 @@
         "files": [
           "src/main/java/net/eca/network/CombatSkillsButtonMessage.java"
         ]
-      }
+      },
+      "path": "~/BattleSystem"
     },
     {
       "name": "CombatSkills",
       "type": "procedure",
-      "sortid": 151,
+      "sortid": 108,
       "compiles": true,
       "locked_code": false,
       "registry_name": "combat_skills",
@@ -1891,12 +1932,13 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/BattleSystem"
     },
     {
       "name": "HeavyAttack",
       "type": "procedure",
-      "sortid": 153,
+      "sortid": 109,
       "compiles": true,
       "locked_code": true,
       "registry_name": "heavy_attack",
@@ -1914,12 +1956,13 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/BattleSystem/Stamina/Warrior"
     },
     {
       "name": "HeavyAttackUnlock",
       "type": "procedure",
-      "sortid": 154,
+      "sortid": 110,
       "compiles": true,
       "locked_code": false,
       "registry_name": "heavy_attack_unlock",
@@ -1949,14 +1992,15 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/BattleSystem/Stamina/Warrior"
     },
     {
       "name": "SkillPointsGetButtonDisplay",
       "type": "procedure",
-      "sortid": 155,
+      "sortid": 111,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "registry_name": "skill_points_get_button_display",
       "metadata": {
         "return_type": "logic",
@@ -1969,12 +2013,13 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/BattleSystem"
     },
     {
       "name": "ShieldSmite",
       "type": "procedure",
-      "sortid": 156,
+      "sortid": 112,
       "compiles": true,
       "locked_code": true,
       "registry_name": "shield_smite",
@@ -2004,12 +2049,13 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/BattleSystem/Stamina/Warrior"
     },
     {
       "name": "ShieldSmiteUnlock",
       "type": "procedure",
-      "sortid": 157,
+      "sortid": 113,
       "compiles": true,
       "locked_code": false,
       "registry_name": "shield_smite_unlock",
@@ -2039,12 +2085,13 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/BattleSystem/Stamina/Warrior"
     },
     {
       "name": "DualWieldCombo",
       "type": "procedure",
-      "sortid": 158,
+      "sortid": 114,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dual_wield_combo",
@@ -2053,12 +2100,13 @@
           "src/main/java/net/eca/procedures/DualWieldComboProcedure.java"
         ],
         "dependencies": []
-      }
+      },
+      "path": "~/BattleSystem/Stamina/Warrior"
     },
     {
       "name": "DualWieldComboUnlock",
       "type": "procedure",
-      "sortid": 159,
+      "sortid": 115,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dual_wield_combo_unlock",
@@ -2066,13 +2114,35 @@
         "files": [
           "src/main/java/net/eca/procedures/DualWieldComboUnlockProcedure.java"
         ],
-        "dependencies": []
-      }
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/BattleSystem/Stamina/Warrior"
     },
     {
       "name": "SwordQi",
       "type": "procedure",
-      "sortid": 160,
+      "sortid": 116,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sword_qi",
@@ -2081,12 +2151,13 @@
           "src/main/java/net/eca/procedures/SwordQiProcedure.java"
         ],
         "dependencies": []
-      }
+      },
+      "path": "~/BattleSystem/Stamina/Warrior"
     },
     {
       "name": "SwordQiUnlock",
       "type": "procedure",
-      "sortid": 161,
+      "sortid": 117,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sword_qi_unlock",
@@ -2094,13 +2165,35 @@
         "files": [
           "src/main/java/net/eca/procedures/SwordQiUnlockProcedure.java"
         ],
-        "dependencies": []
-      }
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/BattleSystem/Stamina/Warrior"
     },
     {
       "name": "ManaSpring",
       "type": "procedure",
-      "sortid": 162,
+      "sortid": 118,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mana_spring",
@@ -2109,12 +2202,13 @@
           "src/main/java/net/eca/procedures/ManaSpringProcedure.java"
         ],
         "dependencies": []
-      }
+      },
+      "path": "~/BattleSystem/Mana/Caster"
     },
     {
       "name": "ManaSpringUnlock",
       "type": "procedure",
-      "sortid": 163,
+      "sortid": 119,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mana_spring_unlock",
@@ -2122,13 +2216,35 @@
         "files": [
           "src/main/java/net/eca/procedures/ManaSpringUnlockProcedure.java"
         ],
-        "dependencies": []
-      }
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/BattleSystem/Mana/Caster"
     },
     {
       "name": "ManaSkin",
       "type": "procedure",
-      "sortid": 164,
+      "sortid": 120,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mana_skin",
@@ -2137,12 +2253,13 @@
           "src/main/java/net/eca/procedures/ManaSkinProcedure.java"
         ],
         "dependencies": []
-      }
+      },
+      "path": "~/BattleSystem/Mana/Caster"
     },
     {
       "name": "ManaSkinUnlock",
       "type": "procedure",
-      "sortid": 165,
+      "sortid": 121,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mana_skin_unlock",
@@ -2150,13 +2267,35 @@
         "files": [
           "src/main/java/net/eca/procedures/ManaSkinUnlockProcedure.java"
         ],
-        "dependencies": []
-      }
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/BattleSystem/Mana/Caster"
     },
     {
       "name": "DoubleSouls",
       "type": "procedure",
-      "sortid": 166,
+      "sortid": 122,
       "compiles": true,
       "locked_code": false,
       "registry_name": "double_souls",
@@ -2165,12 +2304,13 @@
           "src/main/java/net/eca/procedures/DoubleSoulsProcedure.java"
         ],
         "dependencies": []
-      }
+      },
+      "path": "~/BattleSystem/Mana/Caster"
     },
     {
       "name": "DoubleSoulsUnlock",
       "type": "procedure",
-      "sortid": 167,
+      "sortid": 123,
       "compiles": true,
       "locked_code": false,
       "registry_name": "double_souls_unlock",
@@ -2178,13 +2318,35 @@
         "files": [
           "src/main/java/net/eca/procedures/DoubleSoulsUnlockProcedure.java"
         ],
-        "dependencies": []
-      }
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/BattleSystem/Mana/Caster"
     },
     {
       "name": "ElementalResonance",
       "type": "procedure",
-      "sortid": 168,
+      "sortid": 124,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elemental_resonance",
@@ -2193,12 +2355,13 @@
           "src/main/java/net/eca/procedures/ElementalResonanceProcedure.java"
         ],
         "dependencies": []
-      }
+      },
+      "path": "~/BattleSystem/Mana/Caster"
     },
     {
       "name": "ElementalResonanceUnlock",
       "type": "procedure",
-      "sortid": 169,
+      "sortid": 125,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elemental_resonance_unlock",
@@ -2206,13 +2369,35 @@
         "files": [
           "src/main/java/net/eca/procedures/ElementalResonanceUnlockProcedure.java"
         ],
-        "dependencies": []
-      }
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/BattleSystem/Mana/Caster"
     },
     {
       "name": "ProficientInGodlySpells",
       "type": "procedure",
-      "sortid": 170,
+      "sortid": 126,
       "compiles": true,
       "locked_code": false,
       "registry_name": "proficient_in_godly_spells",
@@ -2221,12 +2406,13 @@
           "src/main/java/net/eca/procedures/ProficientInGodlySpellsProcedure.java"
         ],
         "dependencies": []
-      }
+      },
+      "path": "~/BattleSystem/Mana/Caster"
     },
     {
       "name": "ProficientInGodlySpellsUnlock",
       "type": "procedure",
-      "sortid": 171,
+      "sortid": 127,
       "compiles": true,
       "locked_code": false,
       "registry_name": "proficient_in_godly_spells_unlock",
@@ -2234,13 +2420,35 @@
         "files": [
           "src/main/java/net/eca/procedures/ProficientInGodlySpellsUnlockProcedure.java"
         ],
-        "dependencies": []
-      }
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/BattleSystem/Mana"
     },
     {
       "name": "LightFootsteps",
       "type": "procedure",
-      "sortid": 172,
+      "sortid": 128,
       "compiles": true,
       "locked_code": false,
       "registry_name": "light_footsteps",
@@ -2249,12 +2457,13 @@
           "src/main/java/net/eca/procedures/LightFootstepsProcedure.java"
         ],
         "dependencies": []
-      }
+      },
+      "path": "~/BattleSystem/Stamina/Ranger"
     },
     {
       "name": "LightFootstepsUnlock",
       "type": "procedure",
-      "sortid": 173,
+      "sortid": 129,
       "compiles": true,
       "locked_code": false,
       "registry_name": "light_footsteps_unlock",
@@ -2262,13 +2471,35 @@
         "files": [
           "src/main/java/net/eca/procedures/LightFootstepsUnlockProcedure.java"
         ],
-        "dependencies": []
-      }
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/BattleSystem/Stamina/Ranger"
     },
     {
       "name": "ThrowingKnife",
       "type": "procedure",
-      "sortid": 174,
+      "sortid": 130,
       "compiles": true,
       "locked_code": false,
       "registry_name": "throwing_knife",
@@ -2277,12 +2508,13 @@
           "src/main/java/net/eca/procedures/ThrowingKnifeProcedure.java"
         ],
         "dependencies": []
-      }
+      },
+      "path": "~/BattleSystem/Stamina/Ranger"
     },
     {
       "name": "ThrowingKnifeUnlock",
       "type": "procedure",
-      "sortid": 175,
+      "sortid": 131,
       "compiles": true,
       "locked_code": false,
       "registry_name": "throwing_knife_unlock",
@@ -2290,13 +2522,35 @@
         "files": [
           "src/main/java/net/eca/procedures/ThrowingKnifeUnlockProcedure.java"
         ],
-        "dependencies": []
-      }
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/BattleSystem/Stamina/Ranger"
     },
     {
       "name": "HiddenInTheShadow",
       "type": "procedure",
-      "sortid": 176,
+      "sortid": 132,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hidden_in_the_shadow",
@@ -2305,12 +2559,13 @@
           "src/main/java/net/eca/procedures/HiddenInTheShadowProcedure.java"
         ],
         "dependencies": []
-      }
+      },
+      "path": "~/BattleSystem/Stamina/Ranger"
     },
     {
       "name": "HiddenInTheShadowUnlock",
       "type": "procedure",
-      "sortid": 177,
+      "sortid": 133,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hidden_in_the_shadow_unlock",
@@ -2318,13 +2573,35 @@
         "files": [
           "src/main/java/net/eca/procedures/HiddenInTheShadowUnlockProcedure.java"
         ],
-        "dependencies": []
-      }
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/BattleSystem/Stamina/Ranger"
     },
     {
       "name": "MasterOfRangedWeapons",
       "type": "procedure",
-      "sortid": 178,
+      "sortid": 134,
       "compiles": true,
       "locked_code": false,
       "registry_name": "master_of_ranged_weapons",
@@ -2333,12 +2610,13 @@
           "src/main/java/net/eca/procedures/MasterOfRangedWeaponsProcedure.java"
         ],
         "dependencies": []
-      }
+      },
+      "path": "~/BattleSystem/Stamina/Ranger"
     },
     {
       "name": "MasterOfRangedWeaponsUnlock",
       "type": "procedure",
-      "sortid": 179,
+      "sortid": 135,
       "compiles": true,
       "locked_code": false,
       "registry_name": "master_of_ranged_weapons_unlock",
@@ -2346,13 +2624,35 @@
         "files": [
           "src/main/java/net/eca/procedures/MasterOfRangedWeaponsUnlockProcedure.java"
         ],
-        "dependencies": []
-      }
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/BattleSystem/Stamina/Ranger"
     },
     {
       "name": "Knell",
       "type": "procedure",
-      "sortid": 180,
+      "sortid": 136,
       "compiles": true,
       "locked_code": false,
       "registry_name": "knell",
@@ -2361,12 +2661,13 @@
           "src/main/java/net/eca/procedures/KnellProcedure.java"
         ],
         "dependencies": []
-      }
+      },
+      "path": "~/BattleSystem/Stamina/Ranger"
     },
     {
       "name": "KnellUnlock",
       "type": "procedure",
-      "sortid": 181,
+      "sortid": 137,
       "compiles": true,
       "locked_code": false,
       "registry_name": "knell_unlock",
@@ -2374,12 +2675,411 @@
         "files": [
           "src/main/java/net/eca/procedures/KnellUnlockProcedure.java"
         ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/BattleSystem/Stamina/Ranger"
+    },
+    {
+      "name": "SkillPointsButtonPress",
+      "type": "procedure",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skill_points_button_press",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eca/procedures/SkillPointsButtonPressProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/BattleSystem"
+    },
+    {
+      "name": "CombatSkillButton",
+      "type": "keybind",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "combat_skill_button",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eca/network/CombatSkillButtonMessage.java"
+        ]
+      },
+      "path": "~/BattleSystem"
+    },
+    {
+      "name": "MithrilBlastFurnaceBurning",
+      "type": "blockstates",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mithril_blast_furnace_burning",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/epic_core_api/models/block/mithril_blast_furnace_burning_blockstate_0.json",
+          "src/main/resources/assets/epic_core_api/models/block/mithril_blast_furnace_burning_blockstate_1.json"
+        ]
+      },
+      "path": "~/Blocks/MithrilBlust"
+    },
+    {
+      "name": "FuelGui",
+      "type": "procedure",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fuel_gui",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/eca/procedures/FuelGuiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/MithrilBlust"
+    },
+    {
+      "name": "FuelGui0",
+      "type": "procedure",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fuel_gui_0",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/eca/procedures/FuelGui0Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/MithrilBlust"
+    },
+    {
+      "name": "FuelGui1",
+      "type": "procedure",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fuel_gui_1",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/eca/procedures/FuelGui1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/MithrilBlust"
+    },
+    {
+      "name": "FuelGui2",
+      "type": "procedure",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fuel_gui_2",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/eca/procedures/FuelGui2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/MithrilBlust"
+    },
+    {
+      "name": "FuelGui3",
+      "type": "procedure",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fuel_gui_3",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/eca/procedures/FuelGui3Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/MithrilBlust"
+    },
+    {
+      "name": "FuelGui4",
+      "type": "procedure",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fuel_gui_4",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/eca/procedures/FuelGui4Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/MithrilBlust"
+    },
+    {
+      "name": "FuelEnergyGet",
+      "type": "procedure",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fuel_energy_get",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/eca/procedures/FuelEnergyGetProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/MithrilBlust"
+    },
+    {
+      "name": "ChargeAttackButtonDisplay",
+      "type": "procedure",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charge_attack_button_display",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eca/procedures/ChargeAttackButtonDisplayProcedure.java"
+        ],
         "dependencies": []
-      }
+      },
+      "path": "~/BattleSystem/Stamina/Warrior"
+    },
+    {
+      "name": "HeavyAttackButtonDisplay",
+      "type": "procedure",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heavy_attack_button_display",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eca/procedures/HeavyAttackButtonDisplayProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/BattleSystem/Stamina/Warrior"
+    },
+    {
+      "name": "ShieldSmiteButtonDisplay",
+      "type": "procedure",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shield_smite_button_display",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eca/procedures/ShieldSmiteButtonDisplayProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/BattleSystem/Stamina/Warrior"
     }
   ],
-  "variable_elements": [],
-  "sound_elements": [],
+  "variable_elements": [
+    {
+      "name": "skill_points",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "charge_attack",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "heavy_attack",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    }
+  ],
+  "sound_elements": [
+    {
+      "name": "skill_point_use",
+      "files": [
+        "skill_point_use"
+      ],
+      "category": "player",
+      "subtitle": ""
+    },
+    {
+      "name": "charge_attack",
+      "files": [
+        "charge_attack"
+      ],
+      "category": "voice",
+      "subtitle": ""
+    }
+  ],
   "tag_elements": {
     "ITEMS:forge:weapons/normal_weapon": [
       "CUSTOM:SteelHammer",
@@ -2405,6 +3105,9 @@
     ],
     "ITEMS:forge:ingots/orichalcum": [
       "CUSTOM:OrichalcumIngot"
+    ],
+    "ITEMS:forge:weapons/giant_weapon": [
+      "Items.TRIDENT"
     ],
     "ITEMS:forge:dusts/gold": [
       "CUSTOM:GoldDust"
@@ -2476,10 +3179,10 @@
   },
   "language_map": {
     "en_us": {
+      "translation.key.skill_is_active": "A skill is active!",
       "gui.epic_core_api.skill_points_gui.tooltip_double_souls": "Double Souls",
       "enchantment.epic_core_api.divine_blessing": "Divine Blessing",
       "gui.epic_core_api.skill_points_gui.label_ranger_constellation": "Ranger Constellation",
-      "mana.insufficient.tip": "mana insufficient!",
       "enchantment.epic_core_api.sunder_armor.desc": "Reduce the base armor value of the attacked entity by 0.5 points per enchantment level, lasting a duration based on the enchantment level.",
       "enchantment.epic_core_api.divine_wrath": "§cDivine Wrath",
       "jei.epic_core_api.steel_hammer_jei_information": "Used to grind some ingots into dust.",
@@ -2494,7 +3197,6 @@
       "enchantment.epic_core_api.divine_blessing.desc": "§cImmune to Out of World Damage.",
       "gui.epic_core_api.skill_points_gui.label_caster_constellation": "Caster Constellation",
       "item.epic_core_api.gold_dust": "Gold Dust",
-      "stamina.insufficient.tip": "stamina insufficient!",
       "block.epic_core_api.orichalcum_block": "§dOrichalcum Block",
       "gui.epic_core_api.skill_points_gui.tooltip_knell": "Knell",
       "jei.epic_core_api.raw_silver_jei_information": "Dropped from silver ore, can be melted into silver ingots in blast furnace.",
@@ -2502,10 +3204,12 @@
       "enchantment.epic_core_api.divine_wrath.desc": "§cThe original damage type of weapon is replaced by void damage.",
       "block.epic_core_api.black_copper_block": "§eBlack Copper Block",
       "death.attack.soul_damage": "%1$s\u0027s soul has vanished",
+      "key.epic_core_api.combat_skill_button": "Combat Skill Button",
       "translation.key.cause": " caused by ",
       "item.epic_core_api.steel_ingot": "Steel Ingot",
       "gui.epic_core_api.skill_points_gui.tooltip_shield_smite": "Shield Smite",
       "item.epic_core_api.steel_hammer": "Steel Hammer",
+      "translation.key.stamina_insufficient": "Stamina Insufficient!",
       "jei.epic_core_api.steel_ingot_jei_information": "Can be smelted from Iron Ingots.",
       "item.epic_core_api.raw_silver": "Raw Silver",
       "block.epic_core_api.mithril_ore": "§bMithril Ore",
@@ -2535,6 +3239,7 @@
       "block.epic_core_api.mithril_blast_furnace.tip": "§4Warning! Detected incorrect melting products!",
       "translation.key.get": " get ",
       "enchantment.epic_core_api.phantom.desc": "§5Immune to Fall Damage, and has a 0.1*enchantment level chance to be immune to damage.",
+      "translation.key.mana_insufficient": "Mana Insufficient!",
       "item.epic_core_api.silver_dust": "Silver Dust",
       "item.epic_core_api.gold_silver_mixed_dust": "Gold Silver Mixed Dust",
       "enchantment.epic_core_api.poisoning.desc": "Inflicts a level of poison effect based on the enchantment level.",
@@ -2542,7 +3247,6 @@
       "jei.epic_core_api.elder_metal_wreckage_jei_information": "Generates between layers 1 and 32 in the Overworld’s ocean biomes, with an average of 2 groups per chunk, and an average of 4 per group.",
       "gui.epic_core_api.skill_points_gui.label_warrior_constellation": "Warrior Constellation",
       "block.epic_core_api.silver_block": "Silver Block",
-      "key.epic_core_api.skill_points_gui_button": "Skill Points Gui Button",
       "death.attack.soul_damage.item": "The soul of%1$sis sacrificed by%2$susing%3$s",
       "item.epic_core_api.orichalcum_ingot": "Orichalcum Ingot",
       "enchantment.epic_core_api.explosion.desc": "Cause a MOB-type explosion based on the enchantment level when the arrow touches an entity or block.",
@@ -2553,6 +3257,7 @@
       "jei.epic_core_api.mithril_ore_jei_information": "Generates between layers 1 and 32 in the Overworld, with an average of 5 groups per chunk, and an average of 3 per group.",
       "enchantment.epic_core_api.reflection.desc": "§5When blocking, reflects damage value*0.1*enchantment level of magic damage to the attacking entity.",
       "gui.epic_core_api.skill_points_gui.tooltip_proficient_in_godly_spells": "Proficient in Godly Spells",
+      "translation.key.fuel_energy": "Fuel Energy:",
       "item_group.epic_core_api.epic_core_api": "Epic Core API",
       "block.epic_core_api.steel_block": "Steel Block",
       "enchantment.epic_core_api.explosion": "Explosion",
@@ -2560,11 +3265,11 @@
       "item.epic_core_api.epic_core": "Epic Core"
     },
     "zh_cn": {
+      "translation.key.skill_is_active": "已有生效技能！",
       "gui.epic_core_api.skill_points_gui.tooltip_double_souls": "双重灵魂",
       "gui.epic_core_api.skill_points_gui.label_ranger_constellation": "游侠星座",
       "enchantment.epic_core_api.divine_blessing": "§c神佑",
       "enchantment.epic_core_api.sunder_armor.desc": "降低被攻击实体附魔等级*0.5点的护甲基础值，持续基于附魔等级的时间。",
-      "mana.insufficient.tip": "魔力不足！",
       "enchantment.epic_core_api.divine_wrath": "§c神怒",
       "jei.epic_core_api.steel_hammer_jei_information": "用于将一些锭粉碎成粉尘。",
       "enchantment.epic_core_api.phantom": "§5虚化",
@@ -2578,7 +3283,6 @@
       "enchantment.epic_core_api.divine_blessing.desc": "§c免疫虚空伤害。",
       "gui.epic_core_api.skill_points_gui.label_caster_constellation": "术士星座",
       "item.epic_core_api.gold_dust": "金粉",
-      "stamina.insufficient.tip": "精力不足！",
       "block.epic_core_api.orichalcum_block": "§d奥利哈刚块",
       "gui.epic_core_api.skill_points_gui.tooltip_knell": "丧钟",
       "jei.epic_core_api.raw_silver_jei_information": "由银矿掉落，可在高炉中熔炼为银锭。",
@@ -2586,10 +3290,12 @@
       "enchantment.epic_core_api.divine_wrath.desc": "§c武器的原始伤害被替换为虚空伤害。",
       "block.epic_core_api.black_copper_block": "§e乌铜块",
       "death.attack.soul_damage": "%1$s的灵魂消逝了",
+      "key.epic_core_api.combat_skill_button": "Combat Skill Button",
       "translation.key.cause": " 来自于 ",
       "item.epic_core_api.steel_ingot": "钢锭",
       "gui.epic_core_api.skill_points_gui.tooltip_shield_smite": "盾击",
       "item.epic_core_api.steel_hammer": "钢锤",
+      "translation.key.stamina_insufficient": "精力不足！",
       "jei.epic_core_api.steel_ingot_jei_information": "可以由铁锭熔炼而成。",
       "item.epic_core_api.raw_silver": "粗银",
       "block.epic_core_api.mithril_ore": "§b秘银矿",
@@ -2619,6 +3325,7 @@
       "block.epic_core_api.mithril_blast_furnace.tip": "§4警告！检测到错误的熔炼产物！",
       "translation.key.get": " 受到 ",
       "enchantment.epic_core_api.phantom.desc": "§5免疫摔落伤害，并且有0.1*附魔等级的概率免疫伤害。",
+      "translation.key.mana_insufficient": "魔力不足！",
       "item.epic_core_api.silver_dust": "银粉",
       "item.epic_core_api.gold_silver_mixed_dust": "金银混合粉",
       "enchantment.epic_core_api.poisoning.desc": "造成基于附魔等级的中毒效果。",
@@ -2626,7 +3333,6 @@
       "jei.epic_core_api.elder_metal_wreckage_jei_information": "在主世界海洋类群系的1到32层生成，每区块平均生成2组，每组平均生成4个。",
       "gui.epic_core_api.skill_points_gui.label_warrior_constellation": "战士星座",
       "block.epic_core_api.silver_block": "银块",
-      "key.epic_core_api.skill_points_gui_button": "技能点界面",
       "death.attack.soul_damage.item": "%1$s的灵魂被%2$s使用%3$s献祭",
       "item.epic_core_api.orichalcum_ingot": "奥利哈刚锭",
       "enchantment.epic_core_api.explosion.desc": "对箭触碰到的实体或者方块造成一次基于附魔等级的MOB类型的爆炸。",
@@ -2637,6 +3343,7 @@
       "jei.epic_core_api.mithril_ore_jei_information": "在主世界的1到32层生成，每区块平均生成5组，每组平均生成3个。",
       "enchantment.epic_core_api.reflection.desc": "§5格挡时反射伤害值*0.1*附魔等级的魔法伤害给攻击实体。",
       "gui.epic_core_api.skill_points_gui.tooltip_proficient_in_godly_spells": "神术精通",
+      "translation.key.fuel_energy": "燃料能量：",
       "item_group.epic_core_api.epic_core_api": "Epic Core API",
       "block.epic_core_api.steel_block": "钢块",
       "enchantment.epic_core_api.explosion": "爆炸",
@@ -2646,7 +3353,64 @@
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Items",
+        "children": []
+      },
+      {
+        "name": "Blocks",
+        "children": [
+          {
+            "name": "MithrilBlust",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Recipes",
+        "children": []
+      },
+      {
+        "name": "JEI",
+        "children": []
+      },
+      {
+        "name": "Enchments",
+        "children": []
+      },
+      {
+        "name": "BattleSystem",
+        "children": [
+          {
+            "name": "Stamina",
+            "children": [
+              {
+                "name": "Warrior",
+                "children": []
+              },
+              {
+                "name": "Ranger",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Mana",
+            "children": [
+              {
+                "name": "Caster",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Functions",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "epic_core_api",

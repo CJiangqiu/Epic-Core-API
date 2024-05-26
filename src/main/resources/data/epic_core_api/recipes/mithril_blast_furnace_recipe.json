@@ -8,7 +8,7 @@
   ],
   "key": {
     "a": {
-      "item": "epic_core_api:steel_ingot"
+      "tag": "forge:ingots/steel"
     },
     "b": {
       "item": "minecraft:blast_furnace"

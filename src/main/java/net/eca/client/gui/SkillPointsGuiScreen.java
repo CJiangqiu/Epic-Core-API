@@ -12,6 +12,8 @@ import net.minecraft.client.gui.GuiGraphics;
 import net.eca.world.inventory.SkillPointsGuiMenu;
 import net.eca.procedures.SkillPointsGetProcedure;
 import net.eca.procedures.SkillPointsGetButtonDisplayProcedure;
+import net.eca.network.SkillPointsGuiButtonMessage;
+import net.eca.EpicCoreApiMod;
 
 import java.util.HashMap;
 
@@ -137,66 +139,130 @@ public class SkillPointsGuiScreen extends AbstractContainerScreen<SkillPointsGui
 	public void init() {
 		super.init();
 		imagebutton_skill_point_button_0 = new ImageButton(this.leftPos + 21, this.topPos + 129, 16, 16, 0, 0, 16, new ResourceLocation("epic_core_api:textures/screens/atlas/imagebutton_skill_point_button_0.png"), 16, 32, e -> {
+			if (true) {
+				EpicCoreApiMod.PACKET_HANDLER.sendToServer(new SkillPointsGuiButtonMessage(0, x, y, z));
+				SkillPointsGuiButtonMessage.handleButtonAction(entity, 0, x, y, z);
+			}
 		});
 		guistate.put("button:imagebutton_skill_point_button_0", imagebutton_skill_point_button_0);
 		this.addRenderableWidget(imagebutton_skill_point_button_0);
 		imagebutton_skill_point_button_01 = new ImageButton(this.leftPos + 37, this.topPos + 113, 16, 16, 0, 0, 16, new ResourceLocation("epic_core_api:textures/screens/atlas/imagebutton_skill_point_button_01.png"), 16, 32, e -> {
+			if (true) {
+				EpicCoreApiMod.PACKET_HANDLER.sendToServer(new SkillPointsGuiButtonMessage(1, x, y, z));
+				SkillPointsGuiButtonMessage.handleButtonAction(entity, 1, x, y, z);
+			}
 		});
 		guistate.put("button:imagebutton_skill_point_button_01", imagebutton_skill_point_button_01);
 		this.addRenderableWidget(imagebutton_skill_point_button_01);
 		imagebutton_skill_point_button_02 = new ImageButton(this.leftPos + 22, this.topPos + 99, 16, 16, 0, 0, 16, new ResourceLocation("epic_core_api:textures/screens/atlas/imagebutton_skill_point_button_02.png"), 16, 32, e -> {
+			if (true) {
+				EpicCoreApiMod.PACKET_HANDLER.sendToServer(new SkillPointsGuiButtonMessage(2, x, y, z));
+				SkillPointsGuiButtonMessage.handleButtonAction(entity, 2, x, y, z);
+			}
 		});
 		guistate.put("button:imagebutton_skill_point_button_02", imagebutton_skill_point_button_02);
 		this.addRenderableWidget(imagebutton_skill_point_button_02);
 		imagebutton_skill_point_button_03 = new ImageButton(this.leftPos + 54, this.topPos + 127, 16, 16, 0, 0, 16, new ResourceLocation("epic_core_api:textures/screens/atlas/imagebutton_skill_point_button_03.png"), 16, 32, e -> {
+			if (true) {
+				EpicCoreApiMod.PACKET_HANDLER.sendToServer(new SkillPointsGuiButtonMessage(3, x, y, z));
+				SkillPointsGuiButtonMessage.handleButtonAction(entity, 3, x, y, z);
+			}
 		});
 		guistate.put("button:imagebutton_skill_point_button_03", imagebutton_skill_point_button_03);
 		this.addRenderableWidget(imagebutton_skill_point_button_03);
 		imagebutton_skill_point_button_04 = new ImageButton(this.leftPos + 64, this.topPos + 85, 16, 16, 0, 0, 16, new ResourceLocation("epic_core_api:textures/screens/atlas/imagebutton_skill_point_button_04.png"), 16, 32, e -> {
+			if (true) {
+				EpicCoreApiMod.PACKET_HANDLER.sendToServer(new SkillPointsGuiButtonMessage(4, x, y, z));
+				SkillPointsGuiButtonMessage.handleButtonAction(entity, 4, x, y, z);
+			}
 		});
 		guistate.put("button:imagebutton_skill_point_button_04", imagebutton_skill_point_button_04);
 		this.addRenderableWidget(imagebutton_skill_point_button_04);
 		imagebutton_skill_point_button_05 = new ImageButton(this.leftPos + 179, this.topPos + 133, 16, 16, 0, 0, 16, new ResourceLocation("epic_core_api:textures/screens/atlas/imagebutton_skill_point_button_05.png"), 16, 32, e -> {
+			if (true) {
+				EpicCoreApiMod.PACKET_HANDLER.sendToServer(new SkillPointsGuiButtonMessage(5, x, y, z));
+				SkillPointsGuiButtonMessage.handleButtonAction(entity, 5, x, y, z);
+			}
 		});
 		guistate.put("button:imagebutton_skill_point_button_05", imagebutton_skill_point_button_05);
 		this.addRenderableWidget(imagebutton_skill_point_button_05);
 		imagebutton_skill_point_button_06 = new ImageButton(this.leftPos + 193, this.topPos + 119, 16, 16, 0, 0, 16, new ResourceLocation("epic_core_api:textures/screens/atlas/imagebutton_skill_point_button_06.png"), 16, 32, e -> {
+			if (true) {
+				EpicCoreApiMod.PACKET_HANDLER.sendToServer(new SkillPointsGuiButtonMessage(6, x, y, z));
+				SkillPointsGuiButtonMessage.handleButtonAction(entity, 6, x, y, z);
+			}
 		});
 		guistate.put("button:imagebutton_skill_point_button_06", imagebutton_skill_point_button_06);
 		this.addRenderableWidget(imagebutton_skill_point_button_06);
 		imagebutton_skill_point_button_08 = new ImageButton(this.leftPos + 203, this.topPos + 90, 16, 16, 0, 0, 16, new ResourceLocation("epic_core_api:textures/screens/atlas/imagebutton_skill_point_button_08.png"), 16, 32, e -> {
+			if (true) {
+				EpicCoreApiMod.PACKET_HANDLER.sendToServer(new SkillPointsGuiButtonMessage(7, x, y, z));
+				SkillPointsGuiButtonMessage.handleButtonAction(entity, 7, x, y, z);
+			}
 		});
 		guistate.put("button:imagebutton_skill_point_button_08", imagebutton_skill_point_button_08);
 		this.addRenderableWidget(imagebutton_skill_point_button_08);
 		imagebutton_skill_point_button_09 = new ImageButton(this.leftPos + 219, this.topPos + 105, 16, 16, 0, 0, 16, new ResourceLocation("epic_core_api:textures/screens/atlas/imagebutton_skill_point_button_09.png"), 16, 32, e -> {
+			if (true) {
+				EpicCoreApiMod.PACKET_HANDLER.sendToServer(new SkillPointsGuiButtonMessage(8, x, y, z));
+				SkillPointsGuiButtonMessage.handleButtonAction(entity, 8, x, y, z);
+			}
 		});
 		guistate.put("button:imagebutton_skill_point_button_09", imagebutton_skill_point_button_09);
 		this.addRenderableWidget(imagebutton_skill_point_button_09);
 		imagebutton_skill_point_button_010 = new ImageButton(this.leftPos + 222, this.topPos + 87, 16, 16, 0, 0, 16, new ResourceLocation("epic_core_api:textures/screens/atlas/imagebutton_skill_point_button_010.png"), 16, 32, e -> {
+			if (true) {
+				EpicCoreApiMod.PACKET_HANDLER.sendToServer(new SkillPointsGuiButtonMessage(9, x, y, z));
+				SkillPointsGuiButtonMessage.handleButtonAction(entity, 9, x, y, z);
+			}
 		});
 		guistate.put("button:imagebutton_skill_point_button_010", imagebutton_skill_point_button_010);
 		this.addRenderableWidget(imagebutton_skill_point_button_010);
 		imagebutton_skill_point_button_011 = new ImageButton(this.leftPos + 348, this.topPos + 133, 16, 16, 0, 0, 16, new ResourceLocation("epic_core_api:textures/screens/atlas/imagebutton_skill_point_button_011.png"), 16, 32, e -> {
+			if (true) {
+				EpicCoreApiMod.PACKET_HANDLER.sendToServer(new SkillPointsGuiButtonMessage(10, x, y, z));
+				SkillPointsGuiButtonMessage.handleButtonAction(entity, 10, x, y, z);
+			}
 		});
 		guistate.put("button:imagebutton_skill_point_button_011", imagebutton_skill_point_button_011);
 		this.addRenderableWidget(imagebutton_skill_point_button_011);
 		imagebutton_skill_point_button_012 = new ImageButton(this.leftPos + 352, this.topPos + 111, 16, 16, 0, 0, 16, new ResourceLocation("epic_core_api:textures/screens/atlas/imagebutton_skill_point_button_012.png"), 16, 32, e -> {
+			if (true) {
+				EpicCoreApiMod.PACKET_HANDLER.sendToServer(new SkillPointsGuiButtonMessage(11, x, y, z));
+				SkillPointsGuiButtonMessage.handleButtonAction(entity, 11, x, y, z);
+			}
 		});
 		guistate.put("button:imagebutton_skill_point_button_012", imagebutton_skill_point_button_012);
 		this.addRenderableWidget(imagebutton_skill_point_button_012);
 		imagebutton_skill_point_button_013 = new ImageButton(this.leftPos + 376, this.topPos + 115, 16, 16, 0, 0, 16, new ResourceLocation("epic_core_api:textures/screens/atlas/imagebutton_skill_point_button_013.png"), 16, 32, e -> {
+			if (true) {
+				EpicCoreApiMod.PACKET_HANDLER.sendToServer(new SkillPointsGuiButtonMessage(12, x, y, z));
+				SkillPointsGuiButtonMessage.handleButtonAction(entity, 12, x, y, z);
+			}
 		});
 		guistate.put("button:imagebutton_skill_point_button_013", imagebutton_skill_point_button_013);
 		this.addRenderableWidget(imagebutton_skill_point_button_013);
 		imagebutton_skill_point_button_014 = new ImageButton(this.leftPos + 364, this.topPos + 92, 16, 16, 0, 0, 16, new ResourceLocation("epic_core_api:textures/screens/atlas/imagebutton_skill_point_button_014.png"), 16, 32, e -> {
+			if (true) {
+				EpicCoreApiMod.PACKET_HANDLER.sendToServer(new SkillPointsGuiButtonMessage(13, x, y, z));
+				SkillPointsGuiButtonMessage.handleButtonAction(entity, 13, x, y, z);
+			}
 		});
 		guistate.put("button:imagebutton_skill_point_button_014", imagebutton_skill_point_button_014);
 		this.addRenderableWidget(imagebutton_skill_point_button_014);
 		imagebutton_skill_point_button_015 = new ImageButton(this.leftPos + 386, this.topPos + 84, 16, 16, 0, 0, 16, new ResourceLocation("epic_core_api:textures/screens/atlas/imagebutton_skill_point_button_015.png"), 16, 32, e -> {
+			if (true) {
+				EpicCoreApiMod.PACKET_HANDLER.sendToServer(new SkillPointsGuiButtonMessage(14, x, y, z));
+				SkillPointsGuiButtonMessage.handleButtonAction(entity, 14, x, y, z);
+			}
 		});
 		guistate.put("button:imagebutton_skill_point_button_015", imagebutton_skill_point_button_015);
 		this.addRenderableWidget(imagebutton_skill_point_button_015);
 		imagebutton_skill_points_get = new ImageButton(this.leftPos + 259, this.topPos + 217, 16, 16, 0, 0, 16, new ResourceLocation("epic_core_api:textures/screens/atlas/imagebutton_skill_points_get.png"), 16, 32, e -> {
+			if (SkillPointsGetButtonDisplayProcedure.execute(entity)) {
+				EpicCoreApiMod.PACKET_HANDLER.sendToServer(new SkillPointsGuiButtonMessage(15, x, y, z));
+				SkillPointsGuiButtonMessage.handleButtonAction(entity, 15, x, y, z);
+			}
 		}) {
 			@Override
 			public void render(GuiGraphics guiGraphics, int gx, int gy, float ticks) {

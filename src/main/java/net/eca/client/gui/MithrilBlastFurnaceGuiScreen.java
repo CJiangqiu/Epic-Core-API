@@ -14,6 +14,13 @@ import net.eca.procedures.MbfArrowShow4Procedure;
 import net.eca.procedures.MbfArrowShow3Procedure;
 import net.eca.procedures.MbfArrowShow2Procedure;
 import net.eca.procedures.MbfArrowShow1Procedure;
+import net.eca.procedures.FuelGuiProcedure;
+import net.eca.procedures.FuelGui4Procedure;
+import net.eca.procedures.FuelGui3Procedure;
+import net.eca.procedures.FuelGui2Procedure;
+import net.eca.procedures.FuelGui1Procedure;
+import net.eca.procedures.FuelGui0Procedure;
+import net.eca.procedures.FuelEnergyGetProcedure;
 
 import java.util.HashMap;
 
@@ -43,6 +50,8 @@ public class MithrilBlastFurnaceGuiScreen extends AbstractContainerScreen<Mithri
 		this.renderBackground(guiGraphics);
 		super.render(guiGraphics, mouseX, mouseY, partialTicks);
 		this.renderTooltip(guiGraphics, mouseX, mouseY);
+		if (mouseX > leftPos + 90 && mouseX < leftPos + 114 && mouseY > topPos + 59 && mouseY < topPos + 83)
+			guiGraphics.renderTooltip(font, Component.literal(FuelEnergyGetProcedure.execute(world, x, y, z)), mouseX, mouseY);
 	}
 
 	@Override
@@ -68,6 +77,24 @@ public class MithrilBlastFurnaceGuiScreen extends AbstractContainerScreen<Mithri
 		}
 		if (MbfArrowShow5Procedure.execute(world, x, y, z)) {
 			guiGraphics.blit(new ResourceLocation("epic_core_api:textures/screens/arrow_5.png"), this.leftPos + 81, this.topPos + 32, 0, 0, 32, 32, 32, 32);
+		}
+		if (FuelGuiProcedure.execute(world, x, y, z)) {
+			guiGraphics.blit(new ResourceLocation("epic_core_api:textures/screens/fuel.png"), this.leftPos + 90, this.topPos + 59, 0, 0, 16, 16, 16, 16);
+		}
+		if (FuelGui0Procedure.execute(world, x, y, z)) {
+			guiGraphics.blit(new ResourceLocation("epic_core_api:textures/screens/fuel_0.png"), this.leftPos + 90, this.topPos + 59, 0, 0, 16, 16, 16, 16);
+		}
+		if (FuelGui1Procedure.execute(world, x, y, z)) {
+			guiGraphics.blit(new ResourceLocation("epic_core_api:textures/screens/fuel_1.png"), this.leftPos + 90, this.topPos + 59, 0, 0, 16, 16, 16, 16);
+		}
+		if (FuelGui2Procedure.execute(world, x, y, z)) {
+			guiGraphics.blit(new ResourceLocation("epic_core_api:textures/screens/fuel_2.png"), this.leftPos + 90, this.topPos + 59, 0, 0, 16, 16, 16, 16);
+		}
+		if (FuelGui3Procedure.execute(world, x, y, z)) {
+			guiGraphics.blit(new ResourceLocation("epic_core_api:textures/screens/fuel_3.png"), this.leftPos + 90, this.topPos + 59, 0, 0, 16, 16, 16, 16);
+		}
+		if (FuelGui4Procedure.execute(world, x, y, z)) {
+			guiGraphics.blit(new ResourceLocation("epic_core_api:textures/screens/fuel_4.png"), this.leftPos + 90, this.topPos + 59, 0, 0, 16, 16, 16, 16);
 		}
 		RenderSystem.disableBlend();
 	}

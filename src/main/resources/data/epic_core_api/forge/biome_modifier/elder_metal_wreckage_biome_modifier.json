@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#is_ocean",
+  "features": "epic_core_api:elder_metal_wreckage",
+  "step": "underground_ores"
+}

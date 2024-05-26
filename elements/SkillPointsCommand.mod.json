@@ -5,6 +5,6 @@
     "commandName": "skillpoints",
     "type": "STANDARD",
     "permissionLevel": "1",
-    "argsxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"args_start\" deletable=\"false\" x=\"128\" y=\"69\"><next><block type=\"string\"><field name=\"type\">word</field><field name=\"name\">add</field><statement name=\"args\"><block type=\"number_default\"><field name=\"name\">number</field><statement name=\"args\"><block type=\"call_procedure\"><field name=\"procedure\">SkillPointsCommandOperation</field></block></statement></block></statement><next><block type=\"string\"><field name=\"type\">word</field><field name=\"name\">reduce</field><statement name=\"args\"><block type=\"number_default\"><field name=\"name\">number</field><statement name=\"args\"><block type=\"call_procedure\"><field name=\"procedure\">SkillPointsCommandOperation</field></block></statement></block></statement></block></next></block></next></block></xml>"
+    "argsxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"args_start\" deletable=\"false\" x=\"128\" y=\"69\"><next><block type=\"string\"><field name=\"type\">word</field><field name=\"name\">set</field><statement name=\"args\"><block type=\"number_default\"><field name=\"name\">number</field><statement name=\"args\"><block type=\"call_procedure\"><field name=\"procedure\">SkillPointsCommandOperation</field></block></statement></block></statement></block></next></block></xml>"
   }
 }
